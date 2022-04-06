@@ -1,11 +1,11 @@
-
+import "./Footer.css";
 
 function Footer() {
-    return ( 
-        <footer>
-            Talagrbek Kybanuchbek uulu
-        </footer>
-     );
+  return (
+    <footer className="Footer">
+      Talgarbek Kybanychbek uulu 2022-year
+    </footer>
+  );
 }
 
 export default Footer;

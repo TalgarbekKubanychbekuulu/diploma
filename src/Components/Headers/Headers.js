@@ -1,12 +1,20 @@
-import "./Headers.css"
+
+
+import "./Headers.css";
+import headerImage from "../../Components/assets/car1.jpg";
 
 function Headers() {
-    return ( 
-        <Headers>
-            <h1>LOREM LOREM LOREM</h1>
-            <p>This is a Deputet</p>
-        </Headers>
-     );
+  const style = {
+    backgroundImage: `url(${headerImage})`
+  };
+
+  return (
+    <header className="Headers" style={style}>
+<head><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Cinzel:wght@500&display=swap" rel="stylesheet" /></head>   
+   <h1><b>Hypercar market</b></h1>
+      <p><b>Sport cars</b></p>
+    </header>
+  );
 }
 
 export default Headers;

@@ -1,5 +1,5 @@
 import "./Nav.css";
-import Logo from "../ui/Logo/Logo";
+import Logo from "../ui/Logo";
 import NavItem from "./NavItem/NavItem";
 
 function Nav() {

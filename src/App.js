@@ -5,8 +5,8 @@ import Products from "./pages/Products";
 import { Route, Routes } from "react-router-dom";
 
 import Footer from "./Components/Footer/Footer"
-import Headers from "./Components/Headers/headers";
-import Nav from "./Components/Nav/nav";
+import Headers from "./Components/Headers/Headers";
+import Nav from "./Components/Nav/Nav";
 
 function App() {
   return (

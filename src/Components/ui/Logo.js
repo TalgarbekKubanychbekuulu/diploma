@@ -1,9 +1,9 @@
-import "./Logo.css"
+import "./Logo.css";
 
 function Logo() {
-    return ( 
-        <div> </div>
-     );
+  return (
+    <div className="Logo">Fresh Coffee Beans</div>
+  );
 }
 
 export default Logo;

@@ -1,4 +1,4 @@
-.Nav {
+/* .Nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,9 +23,22 @@
   .Nav a:hover {
     background-color: rgba(255, 255, 255, .1);
   }
-  .car{
+  .Nav.car{
     font-family: 'Abril Fatface', cursive;
     font-family: 'Bebas Neue', cursive;
     list-style-type: none;
   }
-  
+   */
+   .Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(63, 29, 5);
+    color: white;
+  }
+  .Nav ul {
+    list-style: none;
+    padding: 0 1.5rem;
+    margin: 0;
+    display: flex;
+  }

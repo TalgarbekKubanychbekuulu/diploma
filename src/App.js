@@ -1,5 +1,6 @@
 import Footer from "./Components/Footer/Footer";
 import Headers from "./Components/Headers/Headers";
+import Main from "./Components/ui/Logo";
 import Nav from "./Components/Nav/Nav";
 
  
@@ -10,6 +11,7 @@ import Nav from "./Components/Nav/Nav";
     <div className="App">
       <Nav />
       <Headers />
+      {/* <Main /> */}
       <Footer />
     </div>
   );

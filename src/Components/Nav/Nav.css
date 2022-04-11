@@ -4,8 +4,9 @@
     justify-content: space-between;
     background-color: rgb(63, 29, 5);
     color: white;
-    padding: 0 1rem;
+    padding:  0 1rem;
   }
+
   .Nav ul {
     list-style: none;
     padding: 0;
@@ -27,3 +28,4 @@
     font-family: 'Bebas Neue', cursive;
     list-style-type: none;
   }
+  

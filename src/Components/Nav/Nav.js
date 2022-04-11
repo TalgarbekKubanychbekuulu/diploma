@@ -3,6 +3,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <nav className="Nav">
+      <Logo />
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&display=swap"
@@ -30,5 +31,6 @@ function Nav() {
     </nav>
   );
 }
+
 
 export default Nav;

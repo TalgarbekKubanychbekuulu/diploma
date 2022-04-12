@@ -1,3 +1,6 @@
+import "./Pages.css"
+
+
 function Home() {
     return (
       <article>

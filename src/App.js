@@ -11,17 +11,16 @@ import Nav from "./Components/Nav/Nav";
 function App() {
   return (
     <div className="App">
-      <Footer />
+     <Nav/>
       <Headers/>
-      <Nav/>
-
+     
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
 
-      
+      <Footer />
     </div>
   );
 }

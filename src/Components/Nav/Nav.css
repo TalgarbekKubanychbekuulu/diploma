@@ -35,10 +35,15 @@
     justify-content: space-between;
     background-color: rgb(63, 29, 5);
     color: white;
+    height: 65px;
+
   }
   .Nav ul {
     list-style: none;
-    padding: 0 1.5rem;
+    padding: 0 1.3rem;
     margin: 0;
     display: flex;
+  }
+  .fref{
+    font-family: 'Arvo', serif;
   }

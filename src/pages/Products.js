@@ -1,3 +1,6 @@
+import "./Pages.css"
+
+
 function Products() {
     return (
       <article>

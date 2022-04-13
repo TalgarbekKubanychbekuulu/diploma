@@ -46,8 +46,9 @@ import NavItem from "./NavItem/NavItem";
 function Nav() {
   return (
     <nav className="Nav">
+      <Logo />
       <ul className="fref">
-          <Logo />
+          
         <NavItem url="/">Home</NavItem>
         <NavItem url="/products">Products</NavItem>
         <NavItem url="/contacts">Contacts</NavItem>

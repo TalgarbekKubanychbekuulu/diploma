@@ -4,12 +4,12 @@
 //   return (
 //     <nav className="Nav">
 //       <Logo />
-      // <head>
-      //   <link
-      //     href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&display=swap"
-      //     rel="stylesheet"
-      //   />
-      // </head>
+// <head>
+//   <link
+//     href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&display=swap"
+//     rel="stylesheet"
+//   />
+// </head>
 
 //       <div className="car">Hypercar market </div>
 //       <ul>
@@ -36,7 +36,6 @@
 //   );
 // }
 
-
 // export default Nav;
 
 import Logo from "../ui/Logo";
@@ -47,15 +46,13 @@ import NavItem from "./NavItem/NavItem";
 function Nav() {
   return (
     <nav className="Nav">
-      <Logo/>
       <ul className="fref">
+          <Logo />
         <NavItem url="/">Home</NavItem>
         <NavItem url="/products">Products</NavItem>
         <NavItem url="/contacts">Contacts</NavItem>
         <NavItem url="/model">Model</NavItem>
         <NavItem url="/categoria">Categoria</NavItem>
-
-
       </ul>
     </nav>
   );

@@ -52,6 +52,10 @@ function Nav() {
         <NavItem url="/">Home</NavItem>
         <NavItem url="/products">Products</NavItem>
         <NavItem url="/contacts">Contacts</NavItem>
+        <NavItem url="/model">Model</NavItem>
+        <NavItem url="/categoria">Categoria</NavItem>
+
+
       </ul>
     </nav>
   );

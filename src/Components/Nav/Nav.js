@@ -47,12 +47,11 @@ import NavItem from "./NavItem/NavItem";
 function Nav() {
   return (
     <nav className="Nav">
-     
+      <Logo/>
       <ul className="fref">
         <NavItem url="/">Home</NavItem>
         <NavItem url="/products">Products</NavItem>
         <NavItem url="/contacts">Contacts</NavItem>
-        <Logo/>
         <NavItem url="/model">Model</NavItem>
         <NavItem url="/categoria">Categoria</NavItem>
 

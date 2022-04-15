@@ -14,7 +14,7 @@ import logo from "../../Components/assets/logotip1.png"
 function Logo() {
   return <div className="Logo">
     <img src={logo} alt="" className="logotip" />
-    <span>Hypercar market</span>
+    <span>Inter-car</span>
   </div>;
 }
 

@@ -1,33 +1,39 @@
 .Headers {
-    min-height: 50vh;
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
-    background-size: cover;
-    color: white;
-    text-shadow: 0 0 20px rgba(255, 255, 255, .5);
-    background-position: left;
-  }
-  .Headers h1 {
-    margin: 0;
-    color: rgb(16, 16, 87);
-    margin-left: 10px;
-    text-shadow: gray 5px 5px 6px;
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cinzel', serif;
-    font-size: 2.3rem;
-  }
-  .Headers p{
-    color: rgb(34, 16, 87);
-    margin-left: 10px;
-    text-shadow: 3px 3px 3px gray;
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Cinzel', serif;
-    font-size: 1.3rem;
-
-  }
+  min-height: 70vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  background-size: cover;
+  color: white;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  background-position:  bottom right;
   
+
+  
+}
+.Headers h1 {
+  margin: 0;
+  color: rgb(226, 221, 218);
+
+  margin-left: 10px;
+  text-shadow: rgb(251, 250, 254) 1px 1px 1px ;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cinzel", serif;
+  font-size: 2.8rem;
+  list-style-type: square;
+  margin-top: -65px;
+}
+.Headers p {
+  /* color: #d2691e; */
+  margin-left: 10px;
+  /* text-shadow: 3px 3px 3px gray; */
+  text-shadow: rgb(251, 250, 254) 1px 1px 1px ;
+  color: rgb(226, 221, 218);
+  font-family: "Abril Fatface", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cinzel", serif;
+  font-size: 1.7rem;
+}

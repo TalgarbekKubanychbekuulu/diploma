@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(63, 29, 5);
+    background-color: rgb(53, 51, 51);
     color: white;
     height: 65px;
 
@@ -46,5 +46,7 @@
 
   }
   .fref{
-    font-family: 'Arvo', serif;
+    font-family: "Abril Fatface", cursive;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cinzel", serif;
   }

@@ -53,7 +53,8 @@ function Nav() {
         <NavItem url="/products">Products</NavItem>
         <NavItem url="/contacts">Contacts</NavItem>
         <NavItem url="/model">Model</NavItem>
-        <NavItem url="/categoria">Categoria</NavItem>
+        <NavItem url="/category">Category</NavItem>
+
       </ul>
     </nav>
   );

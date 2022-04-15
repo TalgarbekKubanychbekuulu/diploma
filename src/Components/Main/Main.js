@@ -63,6 +63,39 @@ function Main() {
                 <p>Lorem   color: rgb(226, 221, 218);</p>
                 <button><a href="/">Sumbit</a></button>
             </div>
+
+            <div className="Card">
+            <p><img src="https://cdn.bfm.ru/news/maindocumentphoto/2021/11/05/bg.jpg" alt="" width="90px" height="58px" /></p>
+
+                <div className="Card-inner">
+                    <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/1-bugatti-chiron-super-sport-2022-first-drive-review-tracking-front.jpg?itok=mm0b_fr3" width="100%" height="100%" alt="" />
+                </div>
+                <h2>Bugatti Chiron</h2>
+                <p>Lorem   color: rgb(226, 221, 218);</p>
+                <button><a href="/">Sumbit</a></button>
+            </div>
+
+            <div className="Card">
+            <p><img src="https://i.pinimg.com/originals/ab/4e/14/ab4e1456bedfe0bbd4af099619d05f32.jpg" alt="" width="90px" height="58px" /></p>
+
+                <div className="Card-inner">
+                    <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/long-term-review/legacy/1-mclaren-gt-2022-long-term-review-lead.jpg?itok=6XKWdFsH" width="100%" height="100%" alt="" />
+                </div>
+                <h2>McLaren GT 2022 long-term review</h2>
+                <p>Lorem   color: rgb(226, 221, 218);</p>
+                <button><a href="/">Sumbit</a></button>
+            </div>
+
+            <div className="Card">
+            <p><img src="https://prodigits.co.uk/thumbs/wallpapers/p2ls/logo-brands/45/0464e73012274056.jpg" alt="" width="90px" height="58px" /></p>
+
+                <div className="Card-inner">
+                    <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/porsche_cayman_gt4rs_skid.jpg?itok=8ZX8Ulxt" width="100%" height="100%" alt="" />
+                </div>
+                <h2>Porsche 718 Cayman GT4 RS review</h2>
+                <p>Lorem   color: rgb(226, 221, 218);</p>
+                <button><a href="/">Sumbit</a></button>
+            </div>
             
         </div>
      );

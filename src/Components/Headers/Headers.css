@@ -1,4 +1,4 @@
-.Headers {
+/* .Headers {
   min-height: 70vh;
   background-color: aliceblue;
   display: flex;
@@ -27,13 +27,44 @@
   margin-top: -65px;
 }
 .Headers p {
-  /* color: #d2691e; */
   margin-left: 10px;
-  /* text-shadow: 3px 3px 3px gray; */
   text-shadow: rgb(251, 250, 254) 1px 1px 1px ;
   color: rgb(226, 221, 218);
   font-family: "Abril Fatface", cursive;
   font-family: "Bebas Neue", cursive;
   font-family: "Cinzel", serif;
   font-size: 1.7rem;
+} */
+
+.Headers {
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.Headers img {
+  width: 100%;
+  height: 70vh;
+  min-height: 380px;
+  object-fit: cover;
+  object-position: center;
+
+  margin: 2rem 0;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.Headers section {
+  position: absolute;
+  bottom: -7rem;
+  right: 2rem;
+  max-width: 500px;
+  margin-left: 2rem;
+
+  background-color: white;
+  padding: 0 2rem 0;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.Headers h1 {
+  font-size: 2rem;
 }

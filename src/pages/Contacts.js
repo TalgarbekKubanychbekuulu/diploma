@@ -1,15 +1,16 @@
-import "./Pages.css"
-
+import Headers from "../Components/Headers/Headers";
+import headerImage from "../assets/car1.jpg";
 
 function Contacts() {
- 
-    return (
-      <article>
-        <h1>This is Contacts page.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex pariatur voluptatum doloribus enim repudiandae ullam sequi quo suscipit voluptas id, laboriosam necessitatibus, dolore corrupti. Explicabo iure doloribus illum repudiandae tenetur.</p>
+  return (
+    <>
+      <Headers
+        title="Order your coffee!"
+        image={headerImage}>
+        The two most economically important varieties of coffee plant are the Arabica and the Robusta; ~60% of the coffee produced worldwide is Arabica and ~40% is Robusta.[5] Arabica beans consist of 0.8–1.4% caffeine and Robusta beans consist of 1.7–4.0% caffeine.
+      </Headers>
+    </>
+  );
+}
 
-      </article>
-    );
-  }
-  
-  export default Contacts;
+export default Contacts;

@@ -11,7 +11,7 @@ function Main() {
                 </div>
                 <h2>Mercedes-Benz</h2>
                 <p>IMG</p>
-                <button><a href="/">Sumbit</a></button>
+                <button><a href="./index.html">Sumbit</a></button>
             </div>
             <div className="Card">
           <p><img src="https://assets.turbologo.ru/blog/ru/2019/12/18163124/audi-emblem-958x575.png" width="90px" height="58px" alt="" /></p>
@@ -37,7 +37,7 @@ function Main() {
             <div className="Card">
                 <p><img src="https://rian.com.ua/images/36420/34/364203495.jpg" alt="" width="90px" height="58px" /></p>
                 <div className="Card-inner">
-                    <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/1-hyundai-kona-electric-2022-uk-first-drive-review-lead.jpg?itok=Ebh4WCGF" width="100%" height="100%" alt="" />
+                    <img src="https://cdn.motor1.com/images/mgl/kvoqx/s1/hyundai-bayon-le-foto-ufficiali.webp" width="100%" height="100%" alt="" />
                 </div>
                 <h2>Hyundai Kona Electric 39kWh Premium</h2>
                 <p>Lorem   color: rgb(226, 221, 218);</p>
@@ -86,6 +86,16 @@ function Main() {
                 <button><a href="/">Sumbit</a></button>
             </div>
 
+            <div className="Card">
+            <p><img src="https://prodigits.co.uk/thumbs/wallpapers/p2ls/logo-brands/45/0464e73012274056.jpg" alt="" width="90px" height="58px" /></p>
+
+                <div className="Card-inner">
+                    <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/porsche_cayman_gt4rs_skid.jpg?itok=8ZX8Ulxt" width="100%" height="100%" alt="" />
+                </div>
+                <h2>Porsche 718 Cayman GT4 RS review</h2>
+                <p>Lorem   color: rgb(226, 221, 218);</p>
+                <button><a href="/">Sumbit</a></button>
+            </div>
             <div className="Card">
             <p><img src="https://prodigits.co.uk/thumbs/wallpapers/p2ls/logo-brands/45/0464e73012274056.jpg" alt="" width="90px" height="58px" /></p>
 

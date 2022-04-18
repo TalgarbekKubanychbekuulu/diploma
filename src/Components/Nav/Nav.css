@@ -29,7 +29,7 @@
     list-style-type: none;
   }
    */
-   .Nav {
+   /* .Nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,6 +46,26 @@
 
   }
   .fref{
+    font-family: "Abril Fatface", cursive;
+    font-family: "Bebas Neue", cursive;
+    font-family: "Cinzel", serif;
+  } */
+
+  .Nav {
+    background-color: rgb(63, 29, 5);
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  }
+  .Nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
     font-family: "Abril Fatface", cursive;
     font-family: "Bebas Neue", cursive;
     font-family: "Cinzel", serif;

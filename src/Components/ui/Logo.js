@@ -10,7 +10,7 @@
 
 // export default Logo;
 import "./Logo.css";
-import logo from "../../Components/assets/logotip1.png"
+import logo from "../../assets/logotip1.png"
 function Logo() {
   return <div className="Logo">
     <img src={logo} alt="" className="logotip" />
@@ -19,3 +19,4 @@ function Logo() {
 }
 
 export default Logo;
+

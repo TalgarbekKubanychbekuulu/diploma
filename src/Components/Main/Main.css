@@ -19,6 +19,11 @@
   /* background-color: rgb(233, 227, 227); */
   background-image: url(/fon2.jpg);
 
+
+}
+.Card:hover{
+    background-color:red;
+
 }
 .Card-inner{
     height: 100%;
@@ -55,6 +60,7 @@
     font-family: "Abril Fatface", cursive;
     font-family: "Bebas Neue", cursive;
     font-family: "Cinzel", serif;
+    box-shadow: black 3px 3px 3px;
 }
 .Card button a{
    color: white;

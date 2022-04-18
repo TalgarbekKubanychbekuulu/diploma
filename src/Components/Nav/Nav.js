@@ -38,24 +38,46 @@
 
 // export default Nav;
 
-import Logo from "../ui/Logo";
+// import Logo from "../ui/Logo";
+// import "./Nav.css";
+// // import Logo from "../ui/Logo/Logo";
+// import NavItem from "./NavItem/NavItem";
+
+// function Nav() {
+//   return (
+//     <nav className="Nav">
+//       <Logo />
+//       <ul className="fref">
+
+//         <NavItem url="/">Home</NavItem>
+//         <NavItem url="/products">Products</NavItem>
+//         <NavItem url="/contacts">Contacts</NavItem>
+//         <NavItem url="/model">Model</NavItem>
+//         <NavItem url="/category">Category</NavItem>
+
+//       </ul>
+//     </nav>
+//   );
+// }
+
+// export default Nav;
+
 import "./Nav.css";
-// import Logo from "../ui/Logo/Logo";
+import Logo from "../ui/Logo";
 import NavItem from "./NavItem/NavItem";
 
 function Nav() {
   return (
     <nav className="Nav">
-      <Logo />
-      <ul className="fref">
-          
-        <NavItem url="/">Home</NavItem>
-        <NavItem url="/products">Products</NavItem>
-        <NavItem url="/contacts">Contacts</NavItem>
-        <NavItem url="/model">Model</NavItem>
-        <NavItem url="/category">Category</NavItem>
-
-      </ul>
+      <div className="container">
+        <Logo />
+        <ul>
+          <NavItem url="/">Home</NavItem>
+          <NavItem url="/products">Products</NavItem>
+          <NavItem url="/contacts">Contacts</NavItem>
+          <NavItem url="/category">Category</NavItem>
+        </ul>
+      </div>
     </nav>
   );
 }

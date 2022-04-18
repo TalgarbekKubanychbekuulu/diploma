@@ -1,4 +1,4 @@
-.Logo {
+/* .Logo {
   padding: 0 1.5rem;
   font-size: 1.3rem;
   font-weight: bold;
@@ -16,4 +16,21 @@
 
  span{
   margin-left:12px;
+} */
+.Logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left:22px;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cinzel", serif;
+  
+
+}
+
+.logotip{
+  width: 33px;
+  height: 33px; 
+   margin-bottom: -9px;
+  margin-left: -6px; 
 }

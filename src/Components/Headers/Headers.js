@@ -24,7 +24,7 @@ import "./Headers.css";
 function Headers({ image, title, children }) {
   return (
     <header className="Headers">
-      <img src={image} />
+      <img src={image} alt="" />
       <section>
         <h1>{title}</h1>
         <p>{children}</p>

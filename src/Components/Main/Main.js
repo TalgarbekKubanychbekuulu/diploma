@@ -96,16 +96,6 @@ function Main() {
                 <p>Lorem   color: rgb(226, 221, 218);</p>
                 <button><a href="/">Sumbit</a></button>
             </div>
-            <div className="Card">
-            <p><img src="https://prodigits.co.uk/thumbs/wallpapers/p2ls/logo-brands/45/0464e73012274056.jpg" alt="" width="90px" height="58px" /></p>
-
-                <div className="Card-inner">
-                    <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/porsche_cayman_gt4rs_skid.jpg?itok=8ZX8Ulxt" width="100%" height="100%" alt="" />
-                </div>
-                <h2>Porsche 718 Cayman GT4 RS review</h2>
-                <p>Lorem   color: rgb(226, 221, 218);</p>
-                <button><a href="/">Sumbit</a></button>
-            </div>
             
         </div>
      );

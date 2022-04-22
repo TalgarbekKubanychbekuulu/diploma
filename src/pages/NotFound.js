@@ -7,8 +7,7 @@ function NotFound() {
       <Headers
         title="Page not found"
         image={headerImage}>
-        Maybe the page you are looking for was moved or deleted.
-      </Headers>
+A sports car or sports car is a conditionally generalized name for a wide class of two-, rarely four-seater cars,      </Headers>
     </>
   );
 }

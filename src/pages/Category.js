@@ -7,8 +7,7 @@ function Category() {
       <Headers
         title="Order your car"
         image={headerImage}>
-        The two most economically important varieties of coffee plant are the Arabica and the Robusta; ~60% of the coffee produced worldwide is Arabica and ~40% is Robusta.[5] Arabica beans consist of 0.8–1.4% caffeine and Robusta beans consist of 1.7–4.0% caffeine.
-      </Headers>
+A sports car or sports car is a conditionally generalized name for a wide class of two-, rarely four-seater cars,      </Headers>
     </>
   );
 }

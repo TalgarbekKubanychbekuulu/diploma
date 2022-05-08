@@ -36,7 +36,7 @@
   font-size: 1.7rem;
 } */
 
-.Headers {
+ .Headers {
   position: relative;
   margin-bottom: 5rem;
 }
@@ -64,7 +64,10 @@
   border-radius: 2rem;
   font-size: 1.2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  font-family: "Abril Fatface", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cinzel", serif;
 }
 .Headers h1 {
   font-size: 2rem;
-}
+} 

@@ -17,7 +17,7 @@
  span{
   margin-left:12px;
 } */
-.Logo {
+/* .Logo {
   font-size: 1.5rem;
   font-weight: bold;
   margin-left:22px;
@@ -36,4 +36,155 @@
 }
 span{
   margin-left: 6px;
+} */
+.fakeimg {
+  height: 100%;
+  background: #aaa;
+}
+.logotip{
+  width: 42px;
+  height: 42px; 
+   margin-bottom: -4px;
+  margin-left: 5px; 
+}
+
+nav{
+  font-family: 'Abril Fatface', cursive;
+}
+/* .navbar-nav:hover{
+background-color: red;
+} */
+
+ li {
+  position: relative;
+  z-index: 2;
+  color: #FFF;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  max-width: 500px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 2s linear;
+}
+li:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+} 
+
+.buy{ 
+    padding: 10px 35px;  
+    overflow:hidden;
+    color: white;
+    padding-left: 50px;
+  }
+  .buy:before {
+    font-family: FontAwesome;
+    content:"\f07a";
+    padding-right: 5px;
+  }
+  .buy:hover{
+    color: gray;
+  }
+  .navbar-brand{
+    transform-style: preserve-3d;
+  }
+  .navbar-brand:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    /* background: #3a9999; */
+    /* border-radius: 5px; */
+    content: 'Sport-Cars';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+  }
+  .navbar-brand:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+  }
+ 
+/* 
+* {
+  box-sizing: border-box;
+}
+
+.openBtn {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background: #bbb;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 200px;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+*/
+ .closebtn:hover {
+  color: #ccc;
+}
+
+.input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80px;
+  background: white;
+  margin-top: 20px;
+}
+
+.input[type=text]:hover {
+  background: #f1f1f1;
+}
+/*
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+} */
+input{
+  height: 30px;
+  margin-top: 20px ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

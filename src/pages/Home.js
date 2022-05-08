@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <Headers
-        title="Welcome to  Sport cars!"
+        title="Welcome to  Sport cars Home!"
         image={headerImage}>
 A sports car or sports car is a conditionally generalized name for a wide class of two-, rarely four-seater cars,     </Headers>
     </>

@@ -14,8 +14,12 @@ function Product() {
     <>
       <Headers
         title={product.title}
-        image={product.image}>
+        image={product.image}
+        orders={product.orders}
+        paper={product.paper}>
+          
         {product.description}
+       
       </Headers>
     </>
   );

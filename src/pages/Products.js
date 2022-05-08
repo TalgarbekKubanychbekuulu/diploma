@@ -7,7 +7,7 @@ function Products() {
   return (
     <>
       <Headers
-        title="Pick your type of coffee!"
+        title="Products"
         image={headerImage}>
 A sports car or sports car is a conditionally generalized name for a wide class of two-, rarely four-seater cars,      </Headers>
 

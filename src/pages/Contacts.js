@@ -5,7 +5,7 @@ function Contacts() {
   return (
     <>
       <Headers
-        title="Order your car!"
+        title="Contacts"
         image={headerImage}>
 A sports car or sports car is a conditionally generalized name for a wide class of two-, rarely four-seater cars,     </Headers>
     </>

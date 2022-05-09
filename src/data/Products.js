@@ -10,7 +10,6 @@ import "./Products.css"
       title: " lamborghini",
       img:korz,
       description: `When the fruit is ripe, it is almost always handpicked, using either "selective picking", where only the ripe fruit is removed, or "strip-picking", where all of the fruit is removed from a limb all at once. Selective picking is often used to produce higher quality coffee because the cherries are picked at their ripest. Strip-picking is indiscriminate and will harvest unripe, ripe, and over-ripe fruit. To improve quality after strip-picking, the harvest must be sorted.`,
-      paper:""
   },
     {
       image: productImage1,
@@ -23,7 +22,6 @@ import "./Products.css"
       productId: "house-blend",
       title: "House blend",
       description: `Two methods are primarily used to process coffee berries. The first, "wet" or "washed" process, has historically usually been carried out in Central America and areas of Africa. The flesh of the cherries is separated from the seeds and then the seeds are fermented – soaked in water for about two days. This softens the mucilage, which is a sticky pulp residue that is still attached to the seeds. Then this mucilage is washed off with water.`,
-      price:""  
     },
     {
       image: productImage,

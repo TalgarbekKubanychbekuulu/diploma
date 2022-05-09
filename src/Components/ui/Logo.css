@@ -45,7 +45,7 @@ span{
   width: 42px;
   height: 42px; 
    margin-bottom: -4px;
-  margin-left: 5px; 
+  /* margin-left: 5px;  */
 }
 
 nav{
@@ -88,6 +88,7 @@ li:hover {
   }
   .navbar-brand{
     transform-style: preserve-3d;
+    margin-left: 0px;
   }
   .navbar-brand:after {
     top: 0;

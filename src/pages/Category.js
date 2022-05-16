@@ -1,13 +1,26 @@
+import { useParams } from "react-router-dom";
 import Headers from "../Components/Headers/Headers";
-import headerImage from "../assets/car5.jpg";
+import { getCategory } from "../data/categories";
+
+
 
 function Category() {
-  return (
+  const params = useParams();
+  const category = getCategory(params.categoryId);
+  if (!category) {
+    return null;
+  }
+
+  // console.log(params);
+  return ( 
     <>
-      <Headers
-        title="Category"
-        image={headerImage}>
-A sports car or sports car is a conditionally generalized name for a wide class of two-, rarely four-seater cars,      </Headers>
+      <div>
+        <Headers title={category.title} image>
+          <img src={category.image} alt="#"/>
+          {category.desciption}
+        </Headers>
+      </div>
+      
     </>
   );
 }

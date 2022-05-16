@@ -30,6 +30,7 @@ function Headers({ image, title, children }) {
         <p>{children}</p>
       </section>
     </header>
+    
   );
 }
 

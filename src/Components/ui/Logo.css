@@ -49,15 +49,17 @@ span{
 }
 
 nav{
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cinzel", serif;
 }
 /* .navbar-nav:hover{
 background-color: red;
 } */
 
- li {
-  position: relative;
-  z-index: 2;
+/* li {
+  position: relative; 
+   z-index: 2;
   color: #FFF;
   margin: 0 auto;
   padding: 10px;
@@ -65,12 +67,12 @@ background-color: red;
   max-width: 500px;
   font-size: 15px;
   cursor: pointer;
-  transition: 2s linear;
+  transition: 3s linear;
 }
 li:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
-} 
+}  */
 
 .buy{ 
     padding: 10px 35px;  
@@ -188,4 +190,51 @@ input{
   height: 30px;
   margin-top: 20px ;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: #0a0a0a;
+}
+nav{
+    height: 100vh;
+    width: 70vw;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+} */
+li{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    font-family: "Abril Fatface", cursive;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Cinzel", serif;
+}
+li:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+li:hover{
+    color: #ffffff;
+}
+li:hover:after{
+    width: 100%;
 }

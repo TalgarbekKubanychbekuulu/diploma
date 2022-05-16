@@ -76,14 +76,12 @@ import "./Products.css"
   ];
 
   export function getProducts(categoryId) {
-   if (categoryId){
-     return products.filter(product => product.categoryId === categoryId);
-   }
-
+    if (categoryId) {
+      return products.filter(product => product.categoryId === categoryId);
+    }
     return products;
   }
-
-  // dark-roast
+  
   export function getProduct(productId) {
     return products[
       products.findIndex(

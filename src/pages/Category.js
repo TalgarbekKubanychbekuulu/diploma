@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import Headers from "../Components/Headers/Headers";
-import { getCategory } from "../data/categories";
+import ProductList from "../Components/ProductList/ProductList";
+import { getCategory} from "../data/categories";
+import { getProducts } from "../data/Products";
 
 
 
@@ -20,7 +22,7 @@ function Category() {
           {category.desciption}
         </Headers>
       </div>
-      
+      <ProductList products={getProducts(category.categoryId)} />
     </>
   );
 }

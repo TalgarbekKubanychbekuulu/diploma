@@ -1,190 +1,191 @@
-// import "./Footer.css";
 
-// function Footer() {
-//   return (
-//     <footer className="Footer">
-//       Hypercar market 2022-year!
-//     </footer>
-//   );
-// }
-
-// export default Footer;
 import "./Footer.css";
 
-import d1Icon from "../../assets/FooterImages/lam.jpg";
 
-import icon1 from "../../assets/FooterImages/facebook4.png";
-import icon2 from "../../assets/FooterImages/twitter4.png";
-import icon3 from "../../assets/FooterImages/google3.png";
-import icon4 from "../../assets/FooterImages/skype3.png";
-import icon5 from "../../assets/FooterImages/linkedin4.png";
-
-import d2icon1 from "../../assets/FooterImages/loaction2.gif";
-import d2icon2 from "../../assets/FooterImages/phone2.gif";
-import d2icon3 from "../../assets/FooterImages/phone.gif";
-import d2icon4 from "../../assets/FooterImages/gmail2.gif";
-import d2icon5 from "../../assets/FooterImages/github.gif";
-
-// import arrowRight from "../../assets/FooterImages/arrow-right.svg";
-
-// import d3icon from "../../assets/FooterImages/link.svg";
-
-import d4icon from "../../assets/FooterImages/new.png";
-// import image1 from "../../assets/FooterImages/1.png";
-// import image2 from "../../assets/FooterImages/2.jpg";
-// import image3 from "../../assets/FooterImages/3.jpg";
-// import image4 from "../../assets/FooterImages/4.webp";
-// import image5 from "../../assets/FooterImages/5.jpg";
-// import image6 from "../../assets/FooterImages/6.jpg";
-import cars from "../../assets/car2.jpg"
-
-import clic from "../../assets/FooterImages/coloc.gif";
-
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  
+</head>
 function Footer() {
   return (
-    <footer>
-      <div className="mainFooter d-flex align-center justify-between p-20">
-        <div className="w25p">
-          <h2 className="d-flex align-center">
-            <img
-              className="icon01"
-              src={d1Icon}
-              alt="/"
-              style={{ width: "30px" }}
-            />
-            Inter-Car
-          </h2>
-          <br />
-          <p className="text-footer">
-            Other popular Lamborghini models are the Espada (more than a
-            thousand units sold)
-          </p>
-          <br />
 
-          <p className="mb-11">
-            <b>Connect With Us</b>
-            <img
-              className="mb-10"
-              width="25px"
-              height="25px"
-              src={clic}
-              alt="/"
-            />
-          </p>
-          <div className="d1-icons">
-            <div className="d-flex align-center socialNet">
-              
-              <img className="margin" src={icon1}  width="15px" height="26px" alt="/" />
-              <img className="margin1" src={icon2} width="15px" height="26px" alt="/" />
-              <img className="margin1" src={icon3} width="15px" height="26px" alt="/" />
-              <img className="margin1" src={icon4} width="15px" height="26px" alt="/" />
-              <img className="margin1" src={icon5} width="15px" height="26px" alt="/" />
+
+    <footer id="dk-footer" class="dk-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-4">
+            <div class="dk-footer-box-info">
+              <a href="index.html" class="footer-logo">
+                <img src="https://img4.goodfon.ru/wallpaper/nbig/c/c0/lamborghini-centenario-lp770-4.jpg" alt="footer_logo" class="img-fluid" />
+              </a>
+              <p class="footer-info-text">
+              Lamborghini Centenario is a mid-engined four-wheel drive supercar produced in a limited edition of 40 copies in honor of the 100th 
+              </p>
+              <div class="footer-social-link">
+                <h3>Follow us</h3>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-awarad">
+              <img src="images/icon/best.png" alt="" />
+              <p>Best Design Company 2022</p>
             </div>
           </div>
-        </div>
+          <div class="col-md-12 col-lg-8">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="contact-us">
+                  <div class="contact-icon">
+                    <i class="fa fa-map-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="contact-info">
+                    <h3>Kyrgyzstan</h3>
+                    <p>City: Karakol</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="contact-us contact-us-last">
+                  <div class="contact-icon">
+                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                  </div>
+                  <div class="contact-info">
+                    <h3>+995 990171169</h3>
+                    <p>Give us a call</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-lg-6">
+                <div class="footer-widget footer-left-widget">
+                  <div class="section-heading">
+                    <h3>Useful Links</h3>
+                    <span class="animate-border border-black"></span>
+                  </div>
+                  <ul>
+                    <li>
+                      <a href="#">About us</a>
+                    </li>
+                    <li>
+                      <a href="#">Services</a>
+                    </li>
+                    <li>
+                      <a href="#">Projects</a>
+                    </li>
+                    <li>
+                      <a href="#">Our Team</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">Contact us</a>
+                    </li>
+                    <li>
+                      <a href="#">Blog</a>
+                    </li>
+                    <li>
+                      <a href="#">Testimonials</a>
+                    </li>
+                    <li>
+                      <a href="#">Faq</a>
+                    </li>
+                  </ul>
+                </div>
 
-        {/* <div className="w25p block-3">
-                    <div className="d-flex align-center justify-center">
-                        <img src={d3icon} alt='/' style={{width: '30px'}}/>
-                        <h2 className="ml-10">Links</h2>
-                
+              </div>
+
+              <div class="col-md-12 col-lg-6">
+                <div class="footer-widget">
+                  <div class="section-heading">
+                    <h3>Subscribe</h3>
+                    <span class="animate-border border-black"></span>
+                  </div>
+                  <p className="footer-info-text"> Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
+                  <form action="#">
+                    <div class="form-row">
+                      <div class="col dk-footer-form">
+                        <input type="email" class="form-control" placeholder="Email Address" />
+                        <button type="submit">
+                          <i class="fa fa-send"></i>
+                        </button>
+                      </div>
                     </div>
-                    <p><span>BLOG</span><span><img src={arrowRight} alt="/"/></span></p>
-                    <p><span>PORTFOLIO</span><span><img src={arrowRight} alt="/"/></span></p>
-                    <p><span>HOME</span><span><img src={arrowRight} alt="/"/></span></p>
-                    <p><span>ABOUT</span><span><img src={arrowRight} alt="/"/></span></p>
-                    <p><span>CONTACT</span><span><img src={arrowRight} alt="/"/></span></p>
-                </div> */}
-        <div className="step">
-          <b className="buying"> Buying & Selling</b>
-          <br />
-          Find a Car
-          <br />
-          Find a Dealer
-          <br />
-          Listings by City
-          <br />
-          Certified Pre-Owned
-          <br />
-          Car Payment Calculators
-          <br />
-          Car Reviews & Ratings
-          <br />
-          Compare Side-by-side
-          <br />
-          Fraud Awareness
-          <br />
-          Sell Your Car
-        </div>
-        <div className="step">
-          <b className="buying"> Our Company</b>
-          <br />
-          About Cars.com
-          <br />
-          Contact Cars.com
-          <br />
-          Investor Relations
-          <br />
-          Careers
-          <br />
-          Licensing & Reprints
-          <br />
-          Site Map
-          <br />
-          Feedback
-        </div>
-
-        <div className="w25p block-4">
-          <div className="d-flex align-center justify-center">
-            <img className="new" src={d4icon} alt="/" style={{ width: "35px" }} />
-            <h2 className="ml-10">New cars</h2>
-          </div>
-          <br />
-          <div className="images">
-            <div className="text-center">
-              <img src={cars} alt="/" className="img-1" />
-              <img src={cars} alt="/" className="img-5" />
-              {/* <img src={image3} alt="/" className="img-3" /> */}
-            </div>
-            <div className="text-center">
-              <img src={cars} alt="/" className="img-4" />
-              <img src={cars} alt="/" className="img-2" />
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="w25p block-2">
-          <div></div>
-          <p>
-            <img className="loca" src={d2icon1} alt="/" />
-            Kyrgystan <br /> City:Karakol Street:Shapak Baatyr 258
-          </p>
-          <p>
-            <img className="loca" src={d2icon2} alt="/" />
-            0990 171 169
-          </p>
-          <p>
-            <img className="loca" src={d2icon3} alt="/" />
-            00 999 999 101
-          </p>
-          <p>
-            <img className="loca" src={d2icon4} alt="/" />
-            Sport_Cars@gmail.com
-          </p>
-          <p>
-            <img className="loca" src={d2icon5} alt="/" />
-            Inter_Car@gmail.com
-          </p>
         </div>
       </div>
-      <hr />
-      <div className="underMainFooter d-flex justify-between p-20">
-        <div>
-          <a className="footer-end" href="/" style={{ color: "lightgray" }}>
-            ♛2022 Sport cars{" "}
-          </a>
+
+
+
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <span>Copyright © 2022, All Right Reserved Lamborghini</span>
+            </div>
+
+            <div class="col-md-6">
+              <div class="copyright-menu">
+                <ul>
+                  <li>
+                    <a href="#">Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">Terms
+                    </a>
+                  </li>
+                 
+                  <li>
+                    <a href="#"> Contact
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
         </div>
+
+      </div>
+
+      <div id="back-to-top" class="back-to-top">
+        {/* <button class="btn btn-dark" title="Back to Top" style="display: block;">
+          <i class="fa fa-angle-up"></i>
+        </button> */}
       </div>
     </footer>
+
   );
 }
 

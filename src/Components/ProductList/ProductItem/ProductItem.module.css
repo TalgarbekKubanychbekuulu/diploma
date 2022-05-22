@@ -4,35 +4,36 @@
   object-position: center;
 border-radius: 10%;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  z-index: 2;
+  /* z-index: 2; */
   margin: 0;
 }
 .ProductItem {
   position: relative;
   flex: 0 0 30%;
   margin-bottom: 5rem;
-  margin-top: 1rem;
+  margin-top: 1rem; 
 }
-.ProductItem a {
+.ProductItem a { 
   position: absolute;
   bottom: -3.5rem;
   left: 1.5rem;
   right: 1.5rem;
   z-index: 1;
   
-  background-color: rgb(63, 29, 5);
-  color: white;
+  /* background-color: rgb(63, 29, 5); */
+  /* color: white; */
   font-weight: bold;
   font-size: 1.3rem;
   padding: .8rem 1rem 1.2rem;
   text-align: center;
-  border-radius: 9rem;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  /* border-radius: 9rem; */
+  /* border-top-left-radius: 0; */
+    /* border-top-right-radius: 0; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, .3); */
 }
 .ProductItem .price {
   position: absolute;
+  display: flex;
   top: -1.5rem;
   z-index: 3;
   right: 0;

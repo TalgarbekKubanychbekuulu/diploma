@@ -222,7 +222,7 @@ li{
   font-family: "Bebas Neue", cursive;
   font-family: "Cinzel", serif;
 }
-li:after{
+/* li:after{
     content: "";
     position: absolute;
     background-color: #ff3c78;
@@ -237,4 +237,4 @@ li:hover{
 }
 li:hover:after{
     width: 100%;
-}
+} */

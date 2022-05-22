@@ -1,4 +1,4 @@
-/* .Headers {
+/* /* .Headers {
   min-height: 70vh;
   background-color: aliceblue;
   display: flex;
@@ -36,7 +36,7 @@
   font-size: 1.7rem;
 } */
 
- .Headers {
+/* .Headers {
   position: relative;
   margin-bottom: 5rem;
 }
@@ -55,19 +55,79 @@
 .Headers section {
   position: absolute;
   bottom: -7rem;
-  right: 2rem;
   max-width: 500px;
-  margin-left: 2rem;
-
-  background-color: white;
+margin-bottom: 15%;
   padding: 0 2rem 0;
-  border-radius: 2rem;
   font-size: 1.2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   font-family: "Abril Fatface", cursive;
   font-family: "Bebas Neue", cursive;
   font-family: "Cinzel", serif;
+  color: white;
+  text-shadow: 2px 3px 2px black;
 }
 .Headers h1 {
   font-size: 2rem;
-} 
+}  */
+body{
+  background-color: rgb(38, 38, 38);
+  /* background-image: url(https://w-dog.ru/wallpapers/0/17/329652778204837/avtomobil-chernyj-canon-avto-fotografiya-bentley.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  padding-top: -30px;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://1.bp.blogspot.com/-Fo7pKzwNYvM/YOrTPzC6bmI/AAAAAAAALSM/IynjNy69D0Mz93lxb8rvWoeiFlKOFT_-gCLcBGAsYHQ/s16000/Daftar%2BMobil%2BLamborgini.png") black
+      no-repeat center ;
+     
+  }
+
+  header video {
+    display: none;
+  }
+}

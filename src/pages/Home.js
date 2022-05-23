@@ -24,16 +24,16 @@ function Home() {
         expensive sports cars{" "}
       </p>
 
-      <div class="layout">
+      <div className="layout">
         <input
           name="nav"
           type="radio"
-          class="nav home-radio"
+          className="nav home-radio"
           id="home"
           checked="checked"
         />
-        <div class="page home-page">
-          <div class="page-contents">
+        <div className="page home-page">
+          <div className="page-contents">
             <h1 className="page1">Home</h1>
             <p>
               Automobili Lamborghini S.p.A. - Italian company, manufacturer of
@@ -43,9 +43,9 @@ function Home() {
               already the founder of a large tractor manufacturing company.
               lambo super sport
             </p>
-            {/* <img src="https://img4.goodfon.ru/wallpaper/nbig/c/c0/lamborghini-centenario-lp770-4.jpg" alt="footer_logo" class="img-fluid" /> */}
+            {/* <img src="https://img4.goodfon.ru/wallpaper/nbig/c/c0/lamborghini-centenario-lp770-4.jpg" alt="footer_logo" className="img-fluid" /> */}
 
-            <div id="main" class="is-loading">
+            <div id="main" className="is-loading">
               <h1 className="hei">
                 Lamborghini <br /> 2022-Year
               </h1>
@@ -55,7 +55,7 @@ function Home() {
             </p>
           </div>
         </div>
-        <label class="nav" for="home">
+        <label className="nav" for="home">
           <span>
             <svg
               viewBox="0 0 24 24"
@@ -66,7 +66,7 @@ function Home() {
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="css-i6dzq1"
+              className="css-i6dzq1"
             >
               <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
               <polyline points="9 22 9 12 15 12 15 22"></polyline>
@@ -75,21 +75,21 @@ function Home() {
           </span>
         </label>
 
-        <input name="nav" type="radio" class="about-radio" id="about" />
-        <div class="page about-page">
-          <div class="page-contents">
+        <input name="nav" type="radio" className="about-radio" id="about" />
+        <div className="page about-page">
+          <div className="page-contents">
             <h1 className="page1">About</h1>
             <p>
               Amet tt consectetur adipisicing elit. Sed ipsam ad exercitationem,
               quo quae ullam, quidem laudantium corporis quis minima debitis
               nesciunt repellat. Quos dolore ex quis voluptas, minus ut?
             </p>
-            <div class="container">
+            <div className="container">
               <h1>Models </h1>
             </div>
-            <div id="exTab1" class="container">
-              <ul class="nav nav-pills">
-                <li class="active">
+            <div id="exTab1" className="container">
+              <ul className="nav nav-pills">
+                <li className="active">
                   <a href="#1a" data-toggle="tab">
                     Aventador
                   </a>
@@ -111,13 +111,13 @@ function Home() {
                 </li>
               </ul>
 
-              <div class="tab-content clearfix">
-                <div class="tab-pane active" id="1a">
+              <div className="tab-content clearfix">
+                <div className="tab-pane active" id="1a">
                   <h4>
                     <img
                       src="https://img4.goodfon.ru/wallpaper/nbig/c/c0/lamborghini-centenario-lp770-4.jpg"
                       alt="footer_logo"
-                      class="img-fluid"
+                      className="img-fluid"
                       width="250px"
                       height="150px"
                     />
@@ -127,12 +127,12 @@ function Home() {
                     Aventador models will end in 2022.[7]
                   </h4>
                 </div>
-                <div class="tab-pane" id="2a">
+                <div className="tab-pane" id="2a">
                   <h4>
                     <img
                       src="https://i.pinimg.com/originals/d7/89/d3/d789d393bcab904592815da72bda7d54.jpg"
                       alt="footer_logo"
-                      class="img-fluid"
+                      className="img-fluid"
                       width="250px"
                       height="150px"
                     />
@@ -143,12 +143,12 @@ function Home() {
                     Spyder.
                   </h4>
                 </div>
-                <div class="tab-pane" id="3a">
+                <div className="tab-pane" id="3a">
                   <h4>
                     <img
                       src="https://top-car.ru/upload/gallery/big/c25bc090d361a74f0715bb41fbd3333c.jpg"
                       alt="footer_logo"
-                      class="img-fluid"
+                      className="img-fluid"
                       width="250px"
                       height="150px"
                     />
@@ -159,12 +159,12 @@ function Home() {
                     all-wheel drive layout.
                   </h4>
                 </div>
-                <div class="tab-pane" id="4a">
+                <div className="tab-pane" id="4a">
                   <h4>
                     <img
                       src="https://faktom.ru/data/photo/072718_038600268466.jpg"
                       alt="footer_logo"
-                      class="img-fluid"
+                      className="img-fluid"
                       width="250px"
                       height="150px"
                     />
@@ -179,13 +179,13 @@ function Home() {
             </div>
 
             <hr></hr>
-            <div class="container">
+            <div className="container">
               <h2>History</h2>
             </div>
 
-            <div id="exTab2" class="container">
-              <ul class="nav nav-tabs">
-                <li class="active">
+            <div id="exTab2" className="container">
+              <ul className="nav nav-tabs">
+                <li className="active">
                   <a href="#1" data-toggle="tab">
                     Part1
                   </a>
@@ -202,8 +202,8 @@ function Home() {
                 </li>
               </ul>
 
-              <div class="tab-content ">
-                <div class="tab-pane active" id="1">
+              <div className="tab-content ">
+                <div className="tab-pane active" id="1">
                   <h4>
                     Standard tab panel created on bootstrap using nav-tabsOn
                     April 28, 1916, Ferruccio Lamborghini, the founder of the
@@ -211,7 +211,7 @@ function Home() {
                     high-performance cars, is born in Italy.
                   </h4>
                 </div>
-                <div class="tab-pane" id="2">
+                <div className="tab-pane" id="2">
                   <h4>
                     After World War II, Lamborghini founded a business making
                     tractors from reconfigured surplus military machines, near
@@ -229,7 +229,7 @@ function Home() {
                     a V12 engine.
                   </h4>
                 </div>
-                <div class="tab-pane" id="3">
+                <div className="tab-pane" id="3">
                   <h4>
                     The company’s logo featured a bull, a reference to Ferruccio
                     Lamborghini’s zodiac sign, Taurus the bull. Various
@@ -255,12 +255,12 @@ function Home() {
 
             <hr></hr>
 
-            <div class="container">
+            <div className="container">
               <h2>Car Maker </h2>
             </div>
-            <div id="exTab3" class="container">
-              <ul class="nav nav-pills">
-                <li class="active">
+            <div id="exTab3" className="container">
+              <ul className="nav nav-pills">
+                <li className="active">
                   <a href="#1b" data-toggle="tab">
                     Overview
                   </a>
@@ -282,8 +282,8 @@ function Home() {
                 </li>
               </ul>
 
-              <div class="tab-content clearfix">
-                <div class="tab-pane active" id="1b">
+              <div className="tab-content clearfix">
+                <div className="tab-pane active" id="1b">
                   <h4>
                     The company’s logo featured a bull, a reference to Ferruccio
                     Lamborghini’s zodiac sign, Taurus the bull. Various
@@ -304,19 +304,19 @@ function Home() {
                     at the age of 76.
                   </h4>
                 </div>
-                <div class="tab-pane" id="2b">
+                <div className="tab-pane" id="2b">
                   <h4>
                     We use the class nav-pills instead of nav-tabs which
                     automatically creates a background color for the tab
                   </h4>
                 </div>
-                <div class="tab-pane" id="3b">
+                <div className="tab-pane" id="3b">
                   <h4>
                     We applied clearfix to the tab-content to rid of the gap
                     between the tab and the content
                   </h4>
                 </div>
-                <div class="tab-pane" id="4b">
+                <div className="tab-pane" id="4b">
                   <h4>
                     We use css to change the background color of the content to
                     be equal to the tab
@@ -326,7 +326,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <label class="nav" for="about">
+        <label className="nav" for="about">
           <span>
             <svg
               viewBox="0 0 24 24"
@@ -337,7 +337,7 @@ function Home() {
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="css-i6dzq1"
+              className="css-i6dzq1"
             >
               <circle cx="12" cy="12" r="10"></circle>
               <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
@@ -347,9 +347,9 @@ function Home() {
           </span>
         </label>
 
-        <input name="nav" type="radio" class="contact-radio" id="contact" />
-        <div class="page contact-page">
-          <div class="page-contents">
+        <input name="nav" type="radio" className="contact-radio" id="contact" />
+        <div className="page contact-page">
+          <div className="page-contents">
             <h1 className="page1">Contact</h1>
             <p>
               Eaque accusamus magnam error unde nam, atque provident omnis
@@ -364,7 +364,7 @@ function Home() {
             </p>
           </div>
         </div>
-        <label class="nav" for="contact">
+        <label className="nav" for="contact">
           <span>
             <svg
               viewBox="0 0 24 24"
@@ -375,7 +375,7 @@ function Home() {
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="css-i6dzq1"
+              className="css-i6dzq1"
             >
               <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
             </svg>

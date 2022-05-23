@@ -16,93 +16,93 @@ import "./Footer.css";
 </head>;
 function Footer() {
   return (
-    <footer id="dk-footer" class="dk-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-lg-4">
-            <div class="dk-footer-box-info">
-              <a href="index.html" class="footer-logo">
+    <footer id="dk-footer" className="dk-footer">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12 col-lg-4">
+            <div className="dk-footer-box-info">
+              <a href="index.html" className="footer-logo">
                 <img
                   src="https://img4.goodfon.ru/wallpaper/nbig/c/c0/lamborghini-centenario-lp770-4.jpg"
                   alt="footer_logo"
-                  class="img-fluid"
+                  className="img-fluid"
                 />
               </a>
-              <p class="footer-info-text">
+              <p className="footer-info-text">
                 Lamborghini Centenario is a mid-engined four-wheel drive
                 supercar produced in a limited edition of 40 copies in honor of
                 the 100th
               </p>
-              <div class="footer-social-link">
+              <div className="footer-social-link">
                 <h3>Follow us</h3>
                 <ul>
                   <li>
                     {/* <a href="#">
-                      <i class="fa fa-facebook"></i>
+                      <i className="fa fa-facebook"></i>
                     </a> */}
-                    <Link to="/"><i class="fa fa-facebook"></i></Link>
+                    <Link to="/"><i className="fa fa-facebook"></i></Link>
                   </li>
 
                   <li>
                     {/* <a href="#">
-                      <i class="fa fa-google-plus"></i>
+                      <i className="fa fa-google-plus"></i>
                     </a> */}
-                    <Link to="/"><i class="fa fa-google-plus"></i></Link>
+                    <Link to="/"><i className="fa fa-google-plus"></i></Link>
                   </li>
                   <li>
                     {/* <a href="#">
-                      <i class="fa fa-linkedin"></i>
+                      <i className="fa fa-linkedin"></i>
                     </a> */}
-                     <Link to="/"> <i class="fa fa-linkedin"></i></Link>
+                     <Link to="/"> <i className="fa fa-linkedin"></i></Link>
                   </li>
                   <li>
                     {/* <a href="#">
-                      <i class="fa fa-instagram"></i>
+                      <i className="fa fa-instagram"></i>
                     </a> */}
-                    <Link to="/"> <i class="fa fa-instagram"></i></Link>
+                    <Link to="/"> <i className="fa fa-instagram"></i></Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="footer-awarad">
+            <div className="footer-awarad">
               <img src="images/icon/best.png" alt="" />
               <p>Best Design Company 2022</p>
             </div>
           </div>
-          <div class="col-md-12 col-lg-8">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="contact-us">
-                  <div class="contact-icon">
-                    <i class="fa fa-map-o" aria-hidden="true"></i>
+          <div className="col-md-12 col-lg-8">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="contact-us">
+                  <div className="contact-icon">
+                    <i className="fa fa-map-o" aria-hidden="true"></i>
                   </div>
-                  <div class="contact-info">
+                  <div className="contact-info">
                     <h3>Kyrgyzstan</h3>
                     <p>City: Karakol</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="contact-us contact-us-last">
-                  <div class="contact-icon">
+              <div className="col-md-6">
+                <div className="contact-us contact-us-last">
+                  <div className="contact-icon">
                     <i
-                      class="fa fa-volume-control-phone"
+                      className="fa fa-volume-control-phone"
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div class="contact-info">
+                  <div className="contact-info">
                     <h3>+995 990171169</h3>
                     <p>Give us a call</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12 col-lg-6">
-                <div class="footer-widget footer-left-widget">
-                  <div class="section-heading">
+            <div className="row">
+              <div className="col-md-12 col-lg-6">
+                <div className="footer-widget footer-left-widget">
+                  <div className="section-heading">
                     <h3>Useful Links</h3>
-                    <span class="animate-border border-black"></span>
+                    <span className="animate-border border-black"></span>
                   </div>
                   <ul>
                     {/* <li>
@@ -144,11 +144,11 @@ function Footer() {
                 </div>
               </div>
 
-              <div class="col-md-12 col-lg-6">
-                <div class="footer-widget">
-                  <div class="section-heading">
+              <div className="col-md-12 col-lg-6">
+                <div className="footer-widget">
+                  <div className="section-heading">
                     <h3>Subscribe</h3>
-                    <span class="animate-border border-black"></span>
+                    <span className="animate-border border-black"></span>
                   </div>
                   <p className="footer-info-text">
                     {" "}
@@ -156,15 +156,15 @@ function Footer() {
                     origins, as well.
                   </p>
                   <form action="#">
-                    <div class="form-row">
-                      <div class="col dk-footer-form">
+                    <div className="form-row">
+                      <div className="col dk-footer-form">
                         <input
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           placeholder="Email Address"
                         />
                         <button type="submit">
-                          <i class="fa fa-send"></i>
+                          <i className="fa fa-send"></i>
                         </button>
                       </div>
                     </div>
@@ -176,15 +176,15 @@ function Footer() {
         </div>
       </div>
 
-      <div class="copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
+      <div className="copyright">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
               <span>Copyright © 2022, All Right Reserved Lamborghini</span>
             </div>
 
-            <div class="col-md-6">
-              <div class="copyright-menu">
+            <div className="col-md-6">
+              <div className="copyright-menu">
                 <ul>
                   <li>
                     {/* <a href="#">Home</a> */}
@@ -207,9 +207,9 @@ function Footer() {
         </div>
       </div>
 
-      <div id="back-to-top" class="back-to-top">
-        {/* <button class="btn btn-dark" title="Back to Top" style="display: block;">
-          <i class="fa fa-angle-up"></i>
+      <div id="back-to-top" className="back-to-top">
+        {/* <button className="btn btn-dark" title="Back to Top" style="display: block;">
+          <i className="fa fa-angle-up"></i>
         </button> */}
       </div>
     </footer>

@@ -35,13 +35,13 @@ function Logo() {
   </head>;
 
   return (
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
       <img src={logo} alt="" className="logotip" />
 
-      {/* <a class="navbar-brand" href="https://www.cars.com/?redirect_event%5Bnew_account%5D=true">
+      {/* <a className="navbar-brand" href="https://www.cars.com/?redirect_event%5Bnew_account%5D=true">
         Inter-Car
       </a> */}
-                  <Link class="navbar-brand" to="https://www.cars.com/?redirect_event%5Bnew_account%5D=true"> Inter_Car </Link>
+                  <Link className="navbar-brand" to="https://www.cars.com/?redirect_event%5Bnew_account%5D=true"> Inter_Car </Link>
 
 
       {/* <a className="buy" href="./pages/keres">
@@ -51,41 +51,41 @@ function Logo() {
 
 
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#collapsibleNavbar"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            {/* <a class="nav-link" href="/">
+      <div className="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            {/* <a className="nav-link" href="/">
               Home
             </a> */}
-            <Link class="nav-link" to="/Home"> Home </Link>
+            <Link className="nav-link" to="/Home"> Home </Link>
           </li>
-          <li class="nav-item">
-            {/* <a class="nav-link" href="/contacts">
+          <li className="nav-item">
+            {/* <a className="nav-link" href="/contacts">
               Contacts
             </a> */}
-                        <Link class="nav-link" to="/Contacts">Contacts </Link>
+                        <Link className="nav-link" to="/Contacts">Contacts </Link>
 
           </li>
-          <li class="nav-item">
-            {/* <a class="nav-link" href="/products">
+          <li className="nav-item">
+            {/* <a className="nav-link" href="/products">
               Products
             </a> */}
-                        <Link class="nav-link" to="/Products"> Products </Link>
+                        <Link className="nav-link" to="/Products"> Products </Link>
 
           </li>
         </ul>
-        <div class="overlay-content"></div>
+        <div className="overlay-content"></div>
       </div>
       <form action="/action_page.php">
         <input type="text" placeholder="Search.." name="search" />
-        {/* <button type="submit"><i class="fa fa-search"></i></button> */}
+        {/* <button type="submit"><i className="fa fa-search"></i></button> */}
       </form>
     </nav>
   );

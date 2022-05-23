@@ -27,26 +27,26 @@ function Headers({ image, title, children }) {
     <div>
     <header>
 
-        <div class="overlay"></div>
+        <div className="overlay"></div>
       
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
           <source src={cars} type="video/mp4" />
         </video>
       
-        <div class="container h-100">
-          <div class="d-flex h-100 text-center align-items-center">
-            {/* <div class="w-100 text-white">
-              <h1 class="display-3">Video Header</h1>
-              <p class="lead mb-0">Using HTML5 Video and Bootstrap</p>
+        <div className="container h-100">
+          <div className="d-flex h-100 text-center align-items-center">
+            {/* <div className="w-100 text-white">
+              <h1 className="display-3">Video Header</h1>
+              <p className="lead mb-0">Using HTML5 Video and Bootstrap</p>
             </div> */}
           </div>
         </div>
       </header>
       
-      <section class="my-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 mx-auto">
+      <section className="my-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8 mx-auto">
               
                
             </div>

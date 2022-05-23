@@ -3,7 +3,7 @@ import "./Contacts.css"
 function Contacts() {
   return (
     <>
-     <form class="form">
+     <form className="form">
   <h2 className="con">CONTACT US</h2>
   <p className="text" type="Name:"><input className="inas" placeholder="Write your name here.."></input></p>
   <p className="text" type="Email:"><input className="inas" placeholder="Let us know how to contact you back.."></input></p>
@@ -11,8 +11,8 @@ function Contacts() {
   <button className="but">Send Message</button>
   <div className="feet">
     
-    _<span className="seet" class="fa fa-phone"></span> +996 990 171 169____
-    <span className="seet" class="fa fa-envelope-o"></span> inter_Cars@gmail.com_
+    _<span className="seet" className="fa fa-phone"></span> +996 990 171 169____
+    <span className="seet" className="fa fa-envelope-o"></span> inter_Cars@gmail.com_
   </div>
 </form>
     </>

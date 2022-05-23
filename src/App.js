@@ -33,6 +33,7 @@ import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
+import About from "./pages/About";
 
 
 function App() {
@@ -48,6 +49,8 @@ function App() {
           <Route path="/categories/:categoryId" element={<Category />} />
 
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/about" element={<About />} />
+
 
           <Route path="*" element={<NotFound />} />
 

@@ -78,14 +78,14 @@ function Home() {
         <input name="nav" type="radio" className="about-radio" id="about" />
         <div className="page about-page">
           <div className="page-contents">
-            <h1 className="page1">About</h1>
+            <h1 id="make" className="page1">About</h1>
             <p>
               Amet tt consectetur adipisicing elit. Sed ipsam ad exercitationem,
               quo quae ullam, quidem laudantium corporis quis minima debitis
               nesciunt repellat. Quos dolore ex quis voluptas, minus ut?
             </p>
             <div className="container">
-              <h1>Models </h1>
+              <h1 className="make">Models </h1>
             </div>
             <div id="exTab1" className="container">
               <ul className="nav nav-pills">
@@ -180,7 +180,7 @@ function Home() {
 
             <hr></hr>
             <div className="container">
-              <h2>History</h2>
+              <h2 className="make">History</h2>
             </div>
 
             <div id="exTab2" className="container">
@@ -256,7 +256,7 @@ function Home() {
             <hr></hr>
 
             <div className="container">
-              <h2>Car Maker </h2>
+              <h2 className="make">Car Maker </h2>
             </div>
             <div id="exTab3" className="container">
               <ul className="nav nav-pills">
@@ -379,7 +379,7 @@ function Home() {
             >
               <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
             </svg>
-            Contact
+           <Link to="/Contacts"> Contacts</Link>
           </span>
         </label>
       </div>

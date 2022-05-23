@@ -21,12 +21,7 @@ function Contacts() {
           ></input>
         </p>
         <button className="but">Send Message</button>
-        <div className="feet">
-          _+996 990 171
-          169____
-          {" "}
-          inter_Cars@gmail.com_
-        </div>
+        <div className="feet">_+996 990 171 169____ inter_Cars@gmail.com_</div>
       </form>
     </>
   );

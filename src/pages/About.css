@@ -1,0 +1,61 @@
+.d-flex {
+  color: white;
+}
+.Product {
+  display: flex;
+}
+.Product2 {
+  padding: 1rem;
+  text-align: center;
+  line-height: 38px;
+}
+.title {
+  color: rgb(255, 255, 255);
+}
+.p {
+  color: white;
+}
+.btn {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(79, 92, 117);
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 15px;
+}
+.image {
+  width: 350px;
+  padding-bottom: 30px;
+}
+.samera9 {
+  width: 420px;
+  height: 300px;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px  rgb(95, 93, 93);
+
+
+}
+.samera10 {
+  float: right;
+  width: 420px;
+  height: 300px;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  box-shadow: 6px 6px 3px  rgb(95, 93, 93);
+/* }
+.samera9:hover{
+   
+    margin-top: 1%;
+}
+.samera10:hover{
+   
+    margin-top: 1%; */
+}
+.end {
+  padding: 6%;
+}

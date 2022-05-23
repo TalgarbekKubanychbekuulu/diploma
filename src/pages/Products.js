@@ -29,21 +29,38 @@ function Products() {
               <div id="product-1" className="single-product">
                 <div className="part-1">
                   <ul>
+                  <label class="like">
+  <input type="checkbox"/>
+  <div class="hearth"/>
+</label>
                     <li>
-                      <a href="/">
-                        <i className="fas fa-shopping-cart"></i>
-                      </a>
+                    <Link to="/">
+                        {" "}
+                        <img
+                          src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
+
+
+
                     </li>
                     <li>
-                      <a href="/">
-                        <i className="fas fa-heart"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
+                      {/* <a href="#">
                         <i className="fas fa-plus"></i>
-                      </a>
-                      
+                      </a> */}
+                      <Link to="/About">
+                        {" "}
+                        <img
+                          src="https://img2.freepng.ru/20180524/psv/kisspng-logo-information-computer-icons-5b07018351a692.5514889515271857953345.jpg"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                          className="heart"
+                        />
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -59,27 +76,37 @@ function Products() {
                 <div className="part-1">
                   <span className="discount">15% off</span>
                   <ul>
+                  <label class="like">
+  <input type="checkbox"/>
+  <div class="hearth"/>
+</label>
                     <li>
                       {/* <a href="#">
-                        {" "}
-                        <i className="fas fa-shopping-cart"></i>
-                      </a> */}
-                      <Link to="/">  <i className="fas fa-shopping-cart"></i></Link>
-
-                    </li>
-                    <li>
-                      {/* <a href="#">
-                        {" "}
                         <i className="fas fa-heart"></i>
                       </a> */}
-                         <Link to="/"> <i className="fas fa-heart"></i></Link>
+                       <Link to="/">
+                        {" "}
+                        <img
+                          src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                     <li>
                       {/* <a href="#">
-                        {" "}
                         <i className="fas fa-plus"></i>
                       </a> */}
-                      <Link to="/"> <i className="fas fa-plus"></i></Link>
+                      <Link to="/">
+                        {" "}
+                        <img
+                          src="https://img2.freepng.ru/20180524/psv/kisspng-logo-information-computer-icons-5b07018351a692.5514889515271857953345.jpg"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -93,23 +120,37 @@ function Products() {
               <div id="product-3" className="single-product">
                 <div className="part-1">
                   <ul>
-                    <li>
-                      {/* <a href="#">
-                        <i className="fas fa-shopping-cart"></i>
-                      </a> */}
-                       <Link to="/">  <i className="fas fa-shopping-cart"></i></Link>
-                    </li>
+                  <label class="like">
+  <input type="checkbox"/>
+  <div class="hearth"/>
+</label>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-heart"></i>
                       </a> */}
-                         <Link to="/">    <i className="fas fa-heart"></i></Link>
+                        <Link to="/">
+                        {" "}
+                        <img
+                          src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-plus"></i>
                       </a> */}
-                      <Link to="/">    <i className="fas fa-plus"></i></Link>
+                      <Link to="/About">
+                        {" "}
+                        <img
+                          src="https://img2.freepng.ru/20180524/psv/kisspng-logo-information-computer-icons-5b07018351a692.5514889515271857953345.jpg"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -125,23 +166,37 @@ function Products() {
                 <div className="part-1">
                   <span className="new">new</span>
                   <ul>
-                    <li>
-                      {/* <a href="#">
-                        <i className="fas fa-shopping-cart"></i>
-                      </a> */}
-                      <Link to="/">     <i className="fas fa-shopping-cart"></i></Link>
-                    </li>
+                  <label class="like">
+  <input type="checkbox"/>
+  <div class="hearth"/>
+</label>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-heart"></i>
                       </a> */}
-                      <Link to="/">      <i className="fas fa-heart"></i></Link>
+                       <Link to="/">
+                        {" "}
+                        <img
+                          src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-plus"></i>
                       </a> */}
-                         <Link to="/">     <i className="fas fa-plus"></i></Link>
+                      <Link to="/About">
+                        {" "}
+                        <img
+                          src="https://img2.freepng.ru/20180524/psv/kisspng-logo-information-computer-icons-5b07018351a692.5514889515271857953345.jpg"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -155,23 +210,37 @@ function Products() {
               <div id="product-1" className="single-product">
                 <div className="part-1">
                   <ul>
-                    <li>
-                      {/* <a href="#">
-                        <i className="fas fa-shopping-cart"></i>
-                      </a> */}
-                        <Link to="/">     <i className="fas fa-shopping-cart"></i></Link>
-                    </li>
+                  <label class="like">
+  <input type="checkbox"/>
+  <div class="hearth"/>
+</label>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-heart"></i>
                       </a> */}
-                        <Link to="/">      <i className="fas fa-heart"></i></Link>
+                       <Link to="/">
+                        {" "}
+                        <img
+                          src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-plus"></i>
                       </a> */}
-                       <Link to="/">     <i className="fas fa-plus"></i></Link>
+                      <Link to="/About">
+                        {" "}
+                        <img
+                          src="https://img2.freepng.ru/20180524/psv/kisspng-logo-information-computer-icons-5b07018351a692.5514889515271857953345.jpg"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -187,23 +256,37 @@ function Products() {
                 <div className="part-1">
                   <span className="discount">15% off</span>
                   <ul>
-                    <li>
-                      {/* <a href="#">
-                        <i className="fas fa-shopping-cart"></i>
-                      </a> */}
-                        <Link to="/">     <i className="fas fa-shopping-cart"></i></Link>
-                    </li>
+                  <label class="like">
+  <input type="checkbox"/>
+  <div class="hearth"/>
+</label>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-heart"></i>
                       </a> */}
-                        <Link to="/">      <i className="fas fa-heart"></i></Link>
+                       <Link to="/">
+                        {" "}
+                        <img
+                          src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-plus"></i>
                       </a> */}
-                       <Link to="/">     <i className="fas fa-plus"></i></Link>
+                      <Link to="/About">
+                        {" "}
+                        <img
+                          src="https://img2.freepng.ru/20180524/psv/kisspng-logo-information-computer-icons-5b07018351a692.5514889515271857953345.jpg"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -217,24 +300,40 @@ function Products() {
               <div id="product-3" className="single-product">
                 <div className="part-1">
                   <ul>
-                    <li>
-                      {/* <a href="#">
-                        <i className="fas fa-shopping-cart"></i>
-                      </a> */}
-                      <Link to="/"> <i className="fas fa-shopping-cart"></i></Link>
-                    </li>
+                  <label class="like">
+  <input type="checkbox"/>
+  <div class="hearth"/>
+</label>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-heart"></i>
                       </a> */}
-                        <Link to="/">      <i className="fas fa-heart"></i></Link>
+                        <Link to="/">
+                        {" "}
+                        <img
+                          src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-plus"></i>
                       </a> */}
-                       <Link to="/">     <i className="fas fa-plus"></i></Link>
+                      <Link to="/About">
+                        {" "}
+                        <img
+                          src="https://img2.freepng.ru/20180524/psv/kisspng-logo-information-computer-icons-5b07018351a692.5514889515271857953345.jpg"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
+                    
+                  
                   </ul>
                 </div>
                 <div className="part-2">
@@ -249,24 +348,39 @@ function Products() {
                 <div className="part-1">
                   <span className="new">new</span>
                   <ul>
-                    <li>
-                      {/* <a href="#">
-                        <i className="fas fa-shopping-cart"></i>
-                      </a> */}
-                        <Link to="/">     <i className="fas fa-shopping-cart"></i></Link>
-                    </li>
+                  <label class="like">
+  <input type="checkbox"/>
+  <div class="hearth"/>
+</label>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-heart"></i>
                       </a> */}
-                        <Link to="/">      <i className="fas fa-heart"></i></Link>
+                        <Link to="/">
+                        {" "}
+                        <img
+                          src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
                     <li>
                       {/* <a href="#">
                         <i className="fas fa-plus"></i>
                       </a> */}
-                       <Link to="/">     <i className="fas fa-plus"></i></Link>
+                      <Link to="/About">
+                        {" "}
+                        <img
+                          src="https://img2.freepng.ru/20180524/psv/kisspng-logo-information-computer-icons-5b07018351a692.5514889515271857953345.jpg"
+                          alt="footer_logo"
+                          width="25px"
+                          height="25px"
+                        />
+                      </Link>
                     </li>
+                   
                   </ul>
                 </div>
                 <div className="part-2">

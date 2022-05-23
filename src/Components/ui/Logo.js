@@ -64,7 +64,7 @@ function Logo() {
             {/* <a className="nav-link" href="/">
               Home
             </a> */}
-            <Link className="nav-link" to="/Home"> Home </Link>
+            <Link className="nav-link" to="/"> Home </Link>
           </li>
           <li className="nav-item">
             {/* <a className="nav-link" href="/contacts">

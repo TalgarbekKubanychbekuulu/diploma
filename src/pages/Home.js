@@ -2,9 +2,9 @@ import "./Pages.css";
 import "./Home.css";
 import Headers from "../Components/Headers/Headers";
 import headerImage from "../assets/headers03.jpg";
+import { Link } from "react-router-dom";
 // import CategoryList from "../Components/CategoryList/CategoryList";
 // import {getCategories} from "../data/categories"
-import lam from "../assets/lampo.jpg";
 
 function Home() {
   <head>
@@ -356,7 +356,10 @@ function Home() {
               assumenda alias quidem asperiores?
             </p>
             <p>
-              <a href="#">Get in touch</a>
+              {/* <a href="#">
+                Get in touch
+                </a> */}
+                <Link to="/">Get in touch</Link>
             </p>
           </div>
         </div>

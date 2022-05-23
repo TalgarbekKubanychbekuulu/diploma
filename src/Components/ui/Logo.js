@@ -22,6 +22,7 @@
 
 import "./Logo.css";
 import logo from "../../assets/logotip1.png";
+import { Link } from "react-router-dom";
 function Logo() {
   <head>
     <link
@@ -37,13 +38,17 @@ function Logo() {
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <img src={logo} alt="" className="logotip" />
 
-      <a class="navbar-brand" href="https://www.cars.com/?redirect_event%5Bnew_account%5D=true">
+      {/* <a class="navbar-brand" href="https://www.cars.com/?redirect_event%5Bnew_account%5D=true">
         Inter-Car
-      </a>
+      </a> */}
+                  <Link class="navbar-brand" to="https://www.cars.com/?redirect_event%5Bnew_account%5D=true"> Inter_Car </Link>
 
-      <a className="buy" href="./pages/keres">
+
+      {/* <a className="buy" href="./pages/keres">
         Buy
-      </a>
+      </a> */}
+                  <Link className="buy" to="/"> Buy </Link>
+
 
       <button
         class="navbar-toggler"
@@ -56,19 +61,24 @@ function Logo() {
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="/">
+            {/* <a class="nav-link" href="/">
               Home
-            </a>
+            </a> */}
+            <Link class="nav-link" to="/Home"> Home </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contacts">
+            {/* <a class="nav-link" href="/contacts">
               Contacts
-            </a>
+            </a> */}
+                        <Link class="nav-link" to="/Contacts">Contacts </Link>
+
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/products">
+            {/* <a class="nav-link" href="/products">
               Products
-            </a>
+            </a> */}
+                        <Link class="nav-link" to="/Products"> Products </Link>
+
           </li>
         </ul>
         <div class="overlay-content"></div>

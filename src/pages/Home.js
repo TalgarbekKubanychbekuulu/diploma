@@ -41,6 +41,7 @@ function Home() {
               commune of Sant'Agata Bolognese, near Bologna. The company was
               founded in 1963 by Ferruccio Lamborghini, at that time he was
               already the founder of a large tractor manufacturing company.
+              lambo super sport
             </p>
             {/* <img src="https://img4.goodfon.ru/wallpaper/nbig/c/c0/lamborghini-centenario-lp770-4.jpg" alt="footer_logo" class="img-fluid" /> */}
 

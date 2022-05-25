@@ -38,17 +38,18 @@ function Logo() {
     <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
       <img src={logo} alt="" className="logotip" />
 
-      {/* <a className="navbar-brand" href="https://www.cars.com/?redirect_event%5Bnew_account%5D=true">
-        Inter-Car
-      </a> */}
-                  <Link className="navbar-brand" to="https://www.cars.com/?redirect_event%5Bnew_account%5D=true"> Inter_Car </Link>
+      <Link
+        className="navbar-brand"
+        to="https://www.cars.com/?redirect_event%5Bnew_account%5D=true"
+      >
+        {" "}
+        Inter_Car{" "}
+      </Link>
 
-
-      {/* <a className="buy" href="./pages/keres">
-        Buy
-      </a> */}
-                  <Link className="buy" to="/"> Buy </Link>
-
+      <Link className="buy" to="/">
+        {" "}
+        Buy{" "}
+      </Link>
 
       <button
         className="navbar-toggler"
@@ -61,24 +62,21 @@ function Logo() {
       <div className="collapse navbar-collapse" id="collapsibleNavbar">
         <ul className="navbar-nav">
           <li className="nav-item">
-            {/* <a className="nav-link" href="/">
-              Home
-            </a> */}
-            <Link className="nav-link" to="/"> Home </Link>
+            <Link className="nav-link" to="/">
+              {" "}
+              Home{" "}
+            </Link>
           </li>
           <li className="nav-item">
-            {/* <a className="nav-link" href="/contacts">
-              Contacts
-            </a> */}
-                        <Link className="nav-link" to="/Contacts">Contacts </Link>
-
+            <Link className="nav-link" to="/Contacts">
+              Contacts{" "}
+            </Link>
           </li>
           <li className="nav-item">
-            {/* <a className="nav-link" href="/products">
-              Products
-            </a> */}
-                        <Link className="nav-link" to="/Products"> Products </Link>
-
+            <Link className="nav-link" to="/Products">
+              {" "}
+              Products{" "}
+            </Link>
           </li>
         </ul>
         <div className="overlay-content"></div>

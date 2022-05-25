@@ -1,83 +1,91 @@
 
-
-
-.form {
-  height: 440px;
-  background: #e6e6e6;
-  border-radius: 8px;
-  box-shadow: 0 0 40px -10px #000;
-  margin: calc(50vh - 220px) auto;
-  padding: 20px 30px;
-  max-width: calc(100vw - 40px);
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
   position: relative;
+  border: 5px groove rgb(83, 82, 80);
+  box-shadow: 5px 5px  black;
+  border-radius: 15px;
+  padding: 20px;
+  background-image: url(https://artline-decor.ru/images/mebel-natalie/services/kontakty.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-.con {
-  /* margin: 10px 0; */
-  padding-bottom: 10px;
-  width: 210px;
-  color: #78788c;
-  border-bottom: 3px solid #78788c;
- margin-left: 40%;
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+  font-family: 'Times New Roman', Times, serif;
+     color: #5543ca;
+    background: #5543ca;
+    background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+    background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+    background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
 }
-.con:hover{
-    color: blue;
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
 }
-.inas {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  background: none;
-  outline: none;
-  resize: none;
-  border: 0;
-  font-family: "Montserrat", sans-serif;
-  transition: all 0.3s;
-  border-bottom: 2px solid #bebed2;
-}
-.inas:focus {
-  border-bottom: 2px solid #78788c;
-}
-.text:before {
-  content: attr(type);
+.contact-form .input-text {
   display: block;
-  margin: 28px 0 0;
-  font-size: 14px;
-  color: #5a5a5a;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
 }
-.but {
-  float: right;
-  padding: 8px 12px;
-  margin: 8px 0 0;
-  font-family: "Montserrat", sans-serif;
-  border: 2px solid #78788c;
-  background: 0;
-  color: #5a5a6e;
+.contact-form .input-text:focus {
+  outline: none;
+  
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+          color: orange;
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background-image: linear-gradient(125deg,#a72879,#064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
   cursor: pointer;
-  transition: all 0.3s;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+
 }
-.but:hover {
-  background: #78788c;
-  color: #fff;
-  box-shadow: 5px 5px 3px 3px rgb(111, 111, 234);
-}
-.feet {
-  content: "Hi";
-  /* position: absolute; */
-  bottom: -15px;
-  right: -20px;
-  background: #50505a;
-  color: #fff;
-  width: 320px;
-  padding: 16px 4px 16px 0;
-  border-radius: 6px;
-  font-size: 13px;
-  box-shadow: 10px 10px 40px -14px #000;
-}
-.feet:hover{
-    box-shadow: 5px 5px 3px 3px rgb(56, 55, 55);
-}
-.seet {
-  margin: 0 5px 0 15px;
+
+.submit-btn:hover{
+  box-shadow: 3px 3px 2px rgb(93, 91, 91);
+  margin-left: 5px;
 }

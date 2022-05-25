@@ -7,14 +7,15 @@ import { Link } from "react-router-dom";
 // import {getCategories} from "../data/categories"
 
 function Home() {
-  <head>
+  
+  return (
+    <>
+    <head>
     <link
       href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap"
       rel="stylesheet"
     />
   </head>;
-  return (
-    <>
       <Headers title="< Contacts >" image={headerImage}></Headers>
 
       <h2 className="lambo">Lamborghini</h2>
@@ -90,24 +91,24 @@ function Home() {
             <div id="exTab1" className="container">
               <ul className="nav nav-pills">
                 <li className="active">
-                  <a href="#1a" data-toggle="tab">
+                  <Link to="#1a" data-toggle="tab">
                     Aventador
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#2a" data-toggle="tab">
+                  <Link to="#2a" data-toggle="tab">
                     Huracán
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#3a" data-toggle="tab">
+                  <Link to="#3a" data-toggle="tab">
                     Urus
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#4a" data-toggle="tab">
+                  <Link to="#4a" data-toggle="tab">
                     Lamborghini Super Trofeo
-                  </a>
+                  </Link>
                 </li>
               </ul>
 
@@ -186,19 +187,19 @@ function Home() {
             <div id="exTab2" className="container">
               <ul className="nav nav-tabs">
                 <li className="active">
-                  <a href="#1" data-toggle="tab">
+                  <Link to="#1" data-toggle="tab">
                     Part1
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#2" data-toggle="tab">
+                  <Link to="#2" data-toggle="tab">
                     Part2
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#3" data-toggle="tab">
+                  <Link to="#3" data-toggle="tab">
                     Part3
-                  </a>
+                  </Link>
                 </li>
               </ul>
 

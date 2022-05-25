@@ -29,12 +29,12 @@ function Products() {
               <div id="product-1" className="single-product">
                 <div className="part-1">
                   <ul>
-                  <label class="like">
-  <input type="checkbox"/>
-  <div class="hearth"/>
-</label>
+                    <label className="like">
+                      <input type="checkbox" />
+                      <div className="hearth" />
+                    </label>
                     <li>
-                    <Link to="/">
+                      <Link to="/Buy">
                         {" "}
                         <img
                           src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
@@ -43,14 +43,8 @@ function Products() {
                           height="25px"
                         />
                       </Link>
-
-
-
                     </li>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-plus"></i>
-                      </a> */}
                       <Link to="/About">
                         {" "}
                         <img
@@ -76,15 +70,12 @@ function Products() {
                 <div className="part-1">
                   <span className="discount">15% off</span>
                   <ul>
-                  <label class="like">
-  <input type="checkbox"/>
-  <div class="hearth"/>
-</label>
+                    <label className="like">
+                      <input type="checkbox" />
+                      <div className="hearth" />
+                    </label>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-heart"></i>
-                      </a> */}
-                       <Link to="/">
+                      <Link to="/Buy">
                         {" "}
                         <img
                           src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
@@ -95,10 +86,7 @@ function Products() {
                       </Link>
                     </li>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-plus"></i>
-                      </a> */}
-                      <Link to="/">
+                      <Link to="/About">
                         {" "}
                         <img
                           src="https://img2.freepng.ru/20180524/psv/kisspng-logo-information-computer-icons-5b07018351a692.5514889515271857953345.jpg"
@@ -110,6 +98,7 @@ function Products() {
                     </li>
                   </ul>
                 </div>
+                
                 <div className="part-2">
                   <h3 className="product-title">Lamborghini sport car</h3>
                   <h4 className="product-price">$49.99</h4>
@@ -120,15 +109,12 @@ function Products() {
               <div id="product-3" className="single-product">
                 <div className="part-1">
                   <ul>
-                  <label class="like">
-  <input type="checkbox"/>
-  <div class="hearth"/>
-</label>
+                    <label className="like">
+                      <input type="checkbox" />
+                      <div className="hearth" />
+                    </label>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-heart"></i>
-                      </a> */}
-                        <Link to="/">
+                      <Link to="/">
                         {" "}
                         <img
                           src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
@@ -139,9 +125,6 @@ function Products() {
                       </Link>
                     </li>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-plus"></i>
-                      </a> */}
                       <Link to="/About">
                         {" "}
                         <img
@@ -161,20 +144,18 @@ function Products() {
                 </div>
               </div>
             </div>
+            
             <div className="col-md-6 col-lg-4 col-xl-3">
               <div id="product-4" className="single-product">
                 <div className="part-1">
                   <span className="new">new</span>
                   <ul>
-                  <label class="like">
-  <input type="checkbox"/>
-  <div class="hearth"/>
-</label>
+                    <label className="like">
+                      <input type="checkbox" />
+                      <div className="hearth" />
+                    </label>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-heart"></i>
-                      </a> */}
-                       <Link to="/">
+                      <Link to="/">
                         {" "}
                         <img
                           src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
@@ -185,9 +166,6 @@ function Products() {
                       </Link>
                     </li>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-plus"></i>
-                      </a> */}
                       <Link to="/About">
                         {" "}
                         <img
@@ -210,15 +188,12 @@ function Products() {
               <div id="product-1" className="single-product">
                 <div className="part-1">
                   <ul>
-                  <label class="like">
-  <input type="checkbox"/>
-  <div class="hearth"/>
-</label>
+                    <label className="like">
+                      <input type="checkbox" />
+                      <div className="hearth" />
+                    </label>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-heart"></i>
-                      </a> */}
-                       <Link to="/">
+                      <Link to="/">
                         {" "}
                         <img
                           src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
@@ -229,9 +204,6 @@ function Products() {
                       </Link>
                     </li>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-plus"></i>
-                      </a> */}
                       <Link to="/About">
                         {" "}
                         <img
@@ -256,15 +228,12 @@ function Products() {
                 <div className="part-1">
                   <span className="discount">15% off</span>
                   <ul>
-                  <label class="like">
-  <input type="checkbox"/>
-  <div class="hearth"/>
-</label>
+                    <label className="like">
+                      <input type="checkbox" />
+                      <div className="hearth" />
+                    </label>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-heart"></i>
-                      </a> */}
-                       <Link to="/">
+                      <Link to="/">
                         {" "}
                         <img
                           src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
@@ -275,9 +244,6 @@ function Products() {
                       </Link>
                     </li>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-plus"></i>
-                      </a> */}
                       <Link to="/About">
                         {" "}
                         <img
@@ -300,15 +266,12 @@ function Products() {
               <div id="product-3" className="single-product">
                 <div className="part-1">
                   <ul>
-                  <label class="like">
-  <input type="checkbox"/>
-  <div class="hearth"/>
-</label>
+                    <label className="like">
+                      <input type="checkbox" />
+                      <div className="hearth" />
+                    </label>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-heart"></i>
-                      </a> */}
-                        <Link to="/">
+                      <Link to="/">
                         {" "}
                         <img
                           src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
@@ -319,9 +282,6 @@ function Products() {
                       </Link>
                     </li>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-plus"></i>
-                      </a> */}
                       <Link to="/About">
                         {" "}
                         <img
@@ -332,8 +292,6 @@ function Products() {
                         />
                       </Link>
                     </li>
-                    
-                  
                   </ul>
                 </div>
                 <div className="part-2">
@@ -348,15 +306,12 @@ function Products() {
                 <div className="part-1">
                   <span className="new">new</span>
                   <ul>
-                  <label class="like">
-  <input type="checkbox"/>
-  <div class="hearth"/>
-</label>
+                    <label className="like">
+                      <input type="checkbox" />
+                      <div className="hearth" />
+                    </label>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-heart"></i>
-                      </a> */}
-                        <Link to="/">
+                      <Link to="/">
                         {" "}
                         <img
                           src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
@@ -367,9 +322,6 @@ function Products() {
                       </Link>
                     </li>
                     <li>
-                      {/* <a href="#">
-                        <i className="fas fa-plus"></i>
-                      </a> */}
                       <Link to="/About">
                         {" "}
                         <img
@@ -380,13 +332,13 @@ function Products() {
                         />
                       </Link>
                     </li>
-                   
                   </ul>
                 </div>
                 <div className="part-2">
                   <h3 className="product-title">Lamborghini sport car</h3>
                   <h4 className="product-price">$49.99</h4>
                 </div>
+                
               </div>
             </div>
           </div>

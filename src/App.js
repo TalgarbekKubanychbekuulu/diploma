@@ -1,5 +1,3 @@
-
-
 // import Home from "./pages/Home";
 // import Contacts from "./pages/Contacts";
 // import Products from "./pages/Products";
@@ -35,10 +33,8 @@ import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import About from "./pages/About";
 
-
 function App() {
   return (
-   
     <div className="App">
       <Layout>
         <Routes>
@@ -52,15 +48,12 @@ function App() {
           <Route path="/about" element={<About />} />
 
 
-          <Route path="*" element={<NotFound />} />
 
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
     </div>
-    
   );
 }
 
 export default App;
-
-

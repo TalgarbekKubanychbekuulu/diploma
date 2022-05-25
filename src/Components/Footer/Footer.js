@@ -21,13 +21,13 @@ function Footer() {
         <div className="row">
           <div className="col-md-12 col-lg-4">
             <div className="dk-footer-box-info">
-              <a href="index.html" className="footer-logo">
+              <Link to="index.html" className="footer-logo">
                 <img
                   src="https://img4.goodfon.ru/wallpaper/nbig/c/c0/lamborghini-centenario-lp770-4.jpg"
                   alt="footer_logo"
                   className="img-fluid"
                 />
-              </a>
+              </Link>
               <p className="footer-info-text">
                 Lamborghini Centenario is a mid-engined four-wheel drive
                 supercar produced in a limited edition of 40 copies in honor of
@@ -40,26 +40,52 @@ function Footer() {
                     {/* <a href="#">
                       <i className="fa fa-facebook"></i>
                     </a> */}
-                    <Link to="/"><i className="fa fa-facebook"></i></Link>
+                    <Link to="/">
+                      {/* <i className="fa fa-facebook"></i> */}
+                      <img
+                        src="https://cdn-icons-png.flaticon.com/512/174/174848.png"
+                        alt="footer_logo"
+                        width="30px"
+                        height="30px"
+                        className="send"
+                      />
+                    </Link>
                   </li>
 
                   <li>
-                    {/* <a href="#">
-                      <i className="fa fa-google-plus"></i>
-                    </a> */}
-                    <Link to="/"><i className="fa fa-google-plus"></i></Link>
+                    <Link to="/">
+                      <img
+                        src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png"
+                        alt="footer_logo"
+                        width="30px"
+                        height="30px"
+                        className="send"
+                      />
+                    </Link>
                   </li>
                   <li>
-                    {/* <a href="#">
-                      <i className="fa fa-linkedin"></i>
-                    </a> */}
-                     <Link to="/"> <i className="fa fa-linkedin"></i></Link>
+                    <Link to="/">
+                      {" "}
+                      <img
+                        src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                        alt="footer_logo"
+                        width="30px"
+                        height="30px"
+                        className="send"
+                      />
+                    </Link>
                   </li>
                   <li>
-                    {/* <a href="#">
-                      <i className="fa fa-instagram"></i>
-                    </a> */}
-                    <Link to="/"> <i className="fa fa-instagram"></i></Link>
+                    <Link to="/">
+                      {" "}
+                      <img
+                        src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670127.png?token=exp=1653456463~hmac=0b0cd1601a2c745755bd18db73907fba"
+                        alt="footer_logo"
+                        width="33x"
+                        height="33px"
+                        className="send"
+                      />
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -74,7 +100,13 @@ function Footer() {
               <div className="col-md-6">
                 <div className="contact-us">
                   <div className="contact-icon">
-                    <i className="fa fa-map-o" aria-hidden="true"></i>
+                    <img
+                      src="https://cdn-icons.flaticon.com/png/512/1287/premium/1287955.png?token=exp=1653456577~hmac=18061085540f3762208b0daf1cf7ede4"
+                      alt="footer_logo"
+                      width="25px"
+                      height="25px"
+                      className="send"
+                    />
                   </div>
                   <div className="contact-info">
                     <h3>Kyrgyzstan</h3>
@@ -85,10 +117,13 @@ function Footer() {
               <div className="col-md-6">
                 <div className="contact-us contact-us-last">
                   <div className="contact-icon">
-                    <i
-                      className="fa fa-volume-control-phone"
-                      aria-hidden="true"
-                    ></i>
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/512/1782/1782802.png"
+                      alt="footer_logo"
+                      width="30px"
+                      height="30px"
+                      className="send"
+                    />
                   </div>
                   <div className="contact-info">
                     <h3>+995 990171169</h3>
@@ -105,39 +140,29 @@ function Footer() {
                     <span className="animate-border border-black"></span>
                   </div>
                   <ul>
-                    {/* <li>
-                      <a href="#">About us</a>
-                    </li> */}
-                                        <Link to="/">About us</Link>
+                    <Link to="/">About us</Link>
 
                     <li>
-                      {/* <a href="#">Services</a> */}
                       <Link to="/">Services</Link>
                     </li>
                     <li>
-                      {/* <a href="#">Projects</a> */}
                       <Link to="/">Projects</Link>
                     </li>
                     <li>
-                      {/* <a href="#">Our Team</a> */}
                       <Link to="/">Our Team</Link>
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      {/* <a href="#">Contact us</a> */}
                       <Link to="/">Contacts</Link>
                     </li>
                     <li>
-                      {/* <a href="#">Blog</a> */}
                       <Link to="/">Blog</Link>
                     </li>
                     <li>
-                      {/* <a href="#">Testimonials</a> */}
                       <Link to="/">Testimonials</Link>
                     </li>
                     <li>
-                      {/* <a href="#">Faq</a> */}
                       <Link to="/">Fag</Link>
                     </li>
                   </ul>
@@ -163,8 +188,15 @@ function Footer() {
                           className="form-control"
                           placeholder="Email Address"
                         />
-                        <button type="submit">
-                          <i className="fa fa-send"></i>
+                        <button className="seb" type="submit">
+                          {/* <i className="fa fa-send"></i> */}
+                          <img
+                            src="http://cdn.onlinewebfonts.com/svg/img_446833.png"
+                            alt="footer_logo"
+                            width="20px"
+                            height="20px"
+                            className="send"
+                          />
                         </button>
                       </div>
                     </div>
@@ -187,18 +219,14 @@ function Footer() {
               <div className="copyright-menu">
                 <ul>
                   <li>
-                    {/* <a href="#">Home</a> */}
                     <Link to="/">Home</Link>
                   </li>
                   <li>
-                    {/* <a href="#">Terms</a> */}
                     <Link to="/">Terms</Link>
                   </li>
 
                   <li>
-                    {/* <a href="#"> Contact</a> */}
                     <Link to="/">Contacts</Link>
-
                   </li>
                 </ul>
               </div>

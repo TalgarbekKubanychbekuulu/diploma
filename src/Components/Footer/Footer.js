@@ -21,7 +21,7 @@ function Footer() {
         <div className="row">
           <div className="col-md-12 col-lg-4">
             <div className="dk-footer-box-info">
-              <Link to="index.html" className="footer-logo">
+              <Link to="https://www.lamborghini.com/en-en/models/urus" className="footer-logo">
                 <img
                   src="https://img4.goodfon.ru/wallpaper/nbig/c/c0/lamborghini-centenario-lp770-4.jpg"
                   alt="footer_logo"
@@ -38,10 +38,10 @@ function Footer() {
                 <ul>
                   <li>
                     {/* <a href="#">
-                      <i className="fa fa-facebook"></i>
+                      <i className="fa fa-facebook"></b>
                     </a> */}
                     <Link to="/">
-                      {/* <i className="fa fa-facebook"></i> */}
+                      {/* <i className="fa fa-facebook"></b> */}
                       <img
                         src="https://cdn-icons-png.flaticon.com/512/174/174848.png"
                         alt="footer_logo"
@@ -189,7 +189,7 @@ function Footer() {
                           placeholder="Email Address"
                         />
                         <button className="seb" type="submit">
-                          {/* <i className="fa fa-send"></i> */}
+                          {/* <i className="fa fa-send"></b> */}
                           <img
                             src="http://cdn.onlinewebfonts.com/svg/img_446833.png"
                             alt="footer_logo"
@@ -237,7 +237,7 @@ function Footer() {
 
       <div id="back-to-top" className="back-to-top">
         {/* <button className="btn btn-dark" title="Back to Top" style="display: block;">
-          <i className="fa fa-angle-up"></i>
+          <i className="fa fa-angle-up"></b>
         </button> */}
       </div>
     </footer>

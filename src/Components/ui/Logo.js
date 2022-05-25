@@ -38,11 +38,7 @@ function Logo() {
     <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
       <img src={logo} alt="" className="logotip" />
 
-      <Link
-        className="navbar-brand"
-        to="https://www.cars.com/?redirect_event%5Bnew_account%5D=true"
-      >
-        {" "}
+      <Link className="navbar-brand" to="https://www.lamborghini.com/en-en">
         Inter_Car{" "}
       </Link>
 
@@ -83,7 +79,7 @@ function Logo() {
       </div>
       <form action="/action_page.php">
         <input type="text" placeholder="Search.." name="search" />
-        {/* <button type="submit"><i className="fa fa-search"></i></button> */}
+        {/* <button type="submit"><i className="fa fa-search"></b></button> */}
       </form>
     </nav>
   );

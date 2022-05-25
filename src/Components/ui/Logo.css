@@ -41,14 +41,14 @@ span{
   height: 100%;
   background: #aaa;
 }
-.logotip{
+.logotip {
   width: 42px;
-  height: 42px; 
-   margin-bottom: -4px;
+  height: 42px;
+  margin-bottom: -4px;
   /* margin-left: 5px;  */
 }
 
-nav{
+nav {
   font-family: "Abril Fatface", cursive;
   font-family: "Bebas Neue", cursive;
   font-family: "Cinzel", serif;
@@ -74,40 +74,40 @@ li:hover {
   transform: rotate(360deg);
 }  */
 
-.buy{ 
-    padding: 10px 35px;  
-    overflow:hidden;
-    color: white;
-    padding-left: 50px;
-  }
-  .buy:before {
-    font-family: FontAwesome;
-    content:"\f07a";
-    padding-right: 5px;
-  }
-  .buy:hover{
-    color: gray;
-  }
-  .navbar-brand{
-    transform-style: preserve-3d;
-    margin-left: 0px;
-  }
-  .navbar-brand:after {
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: absolute;
-    /* background: #3a9999; */
-    /* border-radius: 5px; */
-    content: 'Sport-Cars';
-    transform-origin: left bottom;
-    transform: rotateX(90deg);
-  }
-  .navbar-brand:hover {
-    transform-origin: center bottom;
-    transform: rotateX(-90deg) translateY(100%);
-  }
- 
+.buy {
+  padding: 10px 35px;
+  overflow: hidden;
+  color: white;
+  padding-left: 50px;
+}
+.buy:before {
+  font-family: FontAwesome;
+  content: "\f07a";
+  padding-right: 5px;
+}
+.buy:hover {
+  color: gray;
+}
+.navbar-brand {
+  transform-style: preserve-3d;
+  margin-left: 0px;
+}
+.navbar-brand:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  /* background: #3a9999; */
+  /* border-radius: 5px; */
+  content: "Sport-Cars";
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+}
+.navbar-brand:hover {
+  transform-origin: center bottom;
+  transform: rotateX(-90deg) translateY(100%);
+}
+
 /* 
 * {
   box-sizing: border-box;
@@ -155,7 +155,7 @@ li:hover {
   color: white;
 }
 */
- .closebtn:hover {
+.closebtn:hover {
   color: #ccc;
 }
 
@@ -169,7 +169,7 @@ li:hover {
   margin-top: 20px;
 } */
 
-.input[type=text]:hover {
+.input[type="text"]:hover {
   background: #f1f1f1;
 }
 /*
@@ -186,17 +186,17 @@ li:hover {
 .overlay button:hover {
   background: #bbb;
 } */
-input{
+input {
   height: 30px;
-  margin-top: 20px ;
+  margin-top: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 *,
 *:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /* body{
     background-color: #0a0a0a;
@@ -210,15 +210,15 @@ nav{
     justify-content: space-around;
     margin: auto;
 } */
-li{
-    position: relative;
-    text-decoration: none;
-    font-family: 'Poppins',sans-serif;
-    color: #a0a0a0;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    padding: 0 10px;
-    font-family: "Abril Fatface", cursive;
+li {
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #a0a0a0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+  font-family: "Abril Fatface", cursive;
   font-family: "Bebas Neue", cursive;
   font-family: "Cinzel", serif;
 }
@@ -238,3 +238,44 @@ li:hover{
 li:hover:after{
     width: 100%;
 } */
+
+form {
+  position: relative;
+}
+.dk-footer-form input[type="email"] {
+  padding: 14px 28px;
+  border-radius: 50px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+}
+.dk-footer-form input::-webkit-input-placeholder,
+.dk-footer-form input::-moz-placeholder,
+.dk-footer-form input:-ms-input-placeholder,
+.dk-footer-form input::-ms-input-placeholder,
+.dk-footer-form input::-webkit-input-placeholder {
+  color: #878787;
+  font-size: 14px;
+}
+.dk-footer-form input::-webkit-input-placeholder,
+.dk-footer-form input::-moz-placeholder,
+.dk-footer-form input:-ms-input-placeholder,
+.dk-footer-form input::-ms-input-placeholder,
+.dk-footer-form input::placeholder {
+  color: #878787;
+  font-size: 14px;
+}
+.dk-footer-form button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px 24px 12px 17px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid #007bff;
+  background: #007bff;
+  color: #fff;
+  padding-bottom: 10%;
+}
+.dk-footer-form button:hover {
+  cursor: pointer;
+}

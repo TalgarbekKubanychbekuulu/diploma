@@ -38,7 +38,11 @@ function Logo() {
     <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
       <img src={logo} alt="" className="logotip" />
 
-      <Link className="navbar-brand" to="https://www.lamborghini.com/en-en">
+      <Link
+        className="navbar-brand"
+        to="https://www.cars.com/?redirect_event%5Bnew_account%5D=true"
+      >
+        {" "}
         Inter_Car{" "}
       </Link>
 
@@ -77,11 +81,28 @@ function Logo() {
         </ul>
         <div className="overlay-content"></div>
       </div>
-      <form action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search" />
-        {/* <button type="submit"><i className="fa fa-search"></b></button> */}
-      </form>
-    </nav>
+      <form action="#">
+                    <div className="form-row">
+                      <div className="col dk-footer-form">
+                        <input
+                          type="email"
+                          className="form-control"
+                          placeholder="Search..."
+                        />
+                        <button className="seb" type="submit">
+                          {/* <i className="fa fa-send"></b> */}
+                          <img
+                            src="https://cdn-icons.flaticon.com/png/512/3031/premium/3031293.png?token=exp=1653470541~hmac=9bbec02cf1ebdbecc6f3d73af206bfed"
+                            alt="footer_logo"
+                            width="20px"
+                            height="20px"
+                            className="search"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                  </nav>
   );
 }
 

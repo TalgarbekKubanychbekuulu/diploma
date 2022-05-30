@@ -21,7 +21,10 @@ function Footer() {
         <div className="row">
           <div className="col-md-12 col-lg-4">
             <div className="dk-footer-box-info">
-              <Link to="https://www.lamborghini.com/en-en/models/urus" className="footer-logo">
+              <Link
+                to="https://www.lamborghini.com/en-en/models/urus"
+                className="footer-logo"
+              >
                 <img
                   src="https://img4.goodfon.ru/wallpaper/nbig/c/c0/lamborghini-centenario-lp770-4.jpg"
                   alt="footer_logo"
@@ -37,11 +40,7 @@ function Footer() {
                 <h3>Follow us</h3>
                 <ul>
                   <li>
-                    {/* <a href="#">
-                      <i className="fa fa-facebook"></b>
-                    </a> */}
                     <Link to="/">
-                      {/* <i className="fa fa-facebook"></b> */}
                       <img
                         src="https://cdn-icons-png.flaticon.com/512/174/174848.png"
                         alt="footer_logo"
@@ -140,8 +139,9 @@ function Footer() {
                     <span className="animate-border border-black"></span>
                   </div>
                   <ul>
-                    <Link to="/">About us</Link>
-
+                    <li>
+                      <Link to="/">About us</Link>
+                    </li>
                     <li>
                       <Link to="/">Services</Link>
                     </li>

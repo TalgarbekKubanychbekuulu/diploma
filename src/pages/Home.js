@@ -15,15 +15,9 @@ function Home() {
       href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap"
       rel="stylesheet"
     />
-  </head>;
+  </head>
       <Headers title="< Contacts >" image={headerImage}></Headers>
 
-      <h2 className="lambo">Lamborghini</h2>
-      <p className="lambo">
-        {" "}
-        <code>Automobil</code> sport car. Italian company, manufacturer of
-        expensive sports cars{" "}
-      </p>
 
       <div className="layout">
         <input
@@ -36,7 +30,7 @@ function Home() {
         <div className="page home-page">
           <div className="page-contents">
             <h1 className="page1">Home</h1>
-            <p>
+            <p className="text-home">
               Automobili Lamborghini S.p.A. - Italian company, manufacturer of
               expensive sports cars under the Lamborghini brand. Located in the
               commune of Sant'Agata Bolognese, near Bologna. The company was
@@ -79,34 +73,30 @@ function Home() {
         <input name="nav" type="radio" className="about-radio" id="about" />
         <div className="page about-page">
           <div className="page-contents">
-            <h1 id="make" className="page1">About</h1>
-            <p>
-              Amet tt consectetur adipisicing elit. Sed ipsam ad exercitationem,
-              quo quae ullam, quidem laudantium corporis quis minima debitis
-              nesciunt repellat. Quos dolore ex quis voluptas, minus ut?
-            </p>
+           
+           
             <div className="container">
               <h1 className="make">Models </h1>
             </div>
             <div id="exTab1" className="container">
               <ul className="nav nav-pills">
                 <li className="active">
-                  <Link to="#1a" data-toggle="tab">
+                  <Link className="link-home" to="#1a" data-toggle="tab">
                     Aventador
                   </Link>
                 </li>
                 <li>
-                  <Link to="#2a" data-toggle="tab">
+                  <Link className="link-home" to="#2a" data-toggle="tab">
                     Huracán
                   </Link>
                 </li>
                 <li>
-                  <Link to="#3a" data-toggle="tab">
+                  <Link className="link-home" to="#3a" data-toggle="tab">
                     Urus
                   </Link>
                 </li>
                 <li>
-                  <Link to="#4a" data-toggle="tab">
+                  <Link className="link-home" to="#4a" data-toggle="tab">
                     Lamborghini Super Trofeo
                   </Link>
                 </li>
@@ -187,7 +177,7 @@ function Home() {
             <div id="exTab2" className="container">
               <ul className="nav nav-tabs">
                 <li className="active">
-                  <Link to="#1" data-toggle="tab">
+                  <Link className="link-home" to="#1" data-toggle="tab">
                     Part1
                   </Link>
                 </li>
@@ -262,24 +252,24 @@ function Home() {
             <div id="exTab3" className="container">
               <ul className="nav nav-pills">
                 <li className="active">
-                  <a href="#1b" data-toggle="tab">
+                  <Link to="#1b" data-toggle="tab">
                     Overview
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#2b" data-toggle="tab">
+                  <Link className="link-home" to="#2b" data-toggle="tab">
                     Using nav-pills
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#3b" data-toggle="tab">
+                  <Link to="#3b" data-toggle="tab">
                     Applying clearfix
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#4a" data-toggle="tab">
+                  <Link to="#4a" data-toggle="tab">
                     Background color
-                  </a>
+                  </Link>
                 </li>
               </ul>
 
@@ -358,9 +348,7 @@ function Home() {
               assumenda alias quidem asperiores?
             </p>
             <p>
-              {/* <a href="#">
-                Get in touch
-                </a> */}
+             
                 <Link to="/">Get in touch</Link>
             </p>
           </div>

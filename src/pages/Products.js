@@ -34,7 +34,7 @@ function Products() {
                       <div className="hearth" />
                     </label>
                     <li>
-                      <Link to="/Buy">
+                      <Link to="/">
                         {" "}
                         <img
                           src="https://e7.pngegg.com/pngimages/306/475/png-clipart-computer-icons-shopping-cart-retail-shopping-cart-angle-text.png"
@@ -52,7 +52,6 @@ function Products() {
                           alt="footer_logo"
                           width="25px"
                           height="25px"
-                          className="heart"
                         />
                       </Link>
                     </li>
@@ -60,8 +59,8 @@ function Products() {
                 </div>
                 <div className="part-2">
                   <h3 className="product-title">Lamborghini sport car</h3>
-                  <h4 className="product-old-price">$79.99</h4>
-                  <h4 className="product-price">$49.99</h4>
+                  {/* <h4 className="product-old-price">$79.99</h4> */}
+                  <h4 className="product-price">$49.099</h4>
                 </div>
               </div>
             </div>
@@ -139,7 +138,7 @@ function Products() {
                 </div>
                 <div className="part-2">
                   <h3 className="product-title">Lamborghini sport car</h3>
-                  <h4 className="product-old-price">$79.99</h4>
+                  {/* <h4 className="product-old-price">$79.99</h4> */}
                   <h4 className="product-price">$49.99</h4>
                 </div>
               </div>
@@ -180,7 +179,7 @@ function Products() {
                 </div>
                 <div className="part-2">
                   <h3 className="product-title">Lamborghini sport car</h3>
-                  <h4 className="product-price">$49.99</h4>
+                  <h4 className="product-price">$49.990</h4>
                 </div>
               </div>
             </div>
@@ -218,7 +217,7 @@ function Products() {
                 </div>
                 <div className="part-2">
                   <h3 className="product-title">Lamborghini sport car</h3>
-                  <h4 className="product-old-price">$79.99</h4>
+                  {/* <h4 className="product-old-price">$79.99</h4> */}
                   <h4 className="product-price">$49.99</h4>
                 </div>
               </div>
@@ -296,7 +295,7 @@ function Products() {
                 </div>
                 <div className="part-2">
                   <h3 className="product-title">Lamborghini sport car</h3>
-                  <h4 className="product-old-price">$79.99</h4>
+                  {/* <h4 className="product-old-price">$79.99</h4> */}
                   <h4 className="product-price">$49.99</h4>
                 </div>
               </div>

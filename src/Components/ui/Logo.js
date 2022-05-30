@@ -1,25 +1,3 @@
-// import "./Logo.css";
-
-// function Logo() {
-//   return (
-//     <header>
-//     <div className="Logo">Hypercar market</div>
-//     </header>
-//   );
-// }
-
-// export default Logo;
-// import "./Logo.css";
-// import logo from "../../assets/logotip1.png"
-// function Logo() {
-//   return <div className="Logo">
-//     <img src={logo} alt="" className="logotip" />
-//     <span>Inter-car</span>
-//   </div>;
-// }
-
-// export default Logo;
-
 import "./Logo.css";
 import logo from "../../assets/logotip1.png";
 import { Link } from "react-router-dom";
@@ -90,7 +68,6 @@ function Logo() {
                           placeholder="Search..."
                         />
                         <button className="seb" type="submit">
-                          {/* <i className="fa fa-send"></b> */}
                           <img
                             src="https://cdn-icons.flaticon.com/png/512/3031/premium/3031293.png?token=exp=1653470541~hmac=9bbec02cf1ebdbecc6f3d73af206bfed"
                             alt="footer_logo"

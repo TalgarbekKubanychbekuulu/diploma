@@ -32,6 +32,7 @@ import Home from "./pages/Home";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import About from "./pages/About";
+import Buy from "./pages/Buy"
 
 function App() {
   return (
@@ -46,6 +47,8 @@ function App() {
 
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/about" element={<About />} />
+          <Route path="/buy" element={<Buy />} />
+
 
 
 

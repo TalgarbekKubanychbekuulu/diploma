@@ -9,14 +9,8 @@ function Contacts() {
     
 
 <section className="get-in-touch">
-   <h1 className="title">Contact</h1>
-   {/* <img
-                            src="https://artline-decor.ru/images/mebel-natalie/services/kontakty.jpg"
-                            alt="footer_logo"
-                            width="700px"
-                            height="50px"
-                            className="contact"
-                          /> */}
+   <h1 className="title">Contact </h1>
+  
    <form className="contact-form row">
       <div className="form-field col-lg-6">
          <input id="name" className="input-text js-input" type="text" required />

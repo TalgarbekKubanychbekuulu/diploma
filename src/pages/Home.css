@@ -1,8 +1,3 @@
-
-
-body{
-  background-color: rgb(38, 38, 38);
-}
 * {
   font-family: "Work Sans", sans-serif;
 }
@@ -173,9 +168,9 @@ input[type="radio"]:checked + .page .page-contents > * {
   margin: 0 auto;
 }
 .lambo {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: white;
- 
+
   /* padding: 3%; */
 }
 
@@ -203,7 +198,7 @@ input[type="radio"]:checked + .page .page-contents > * {
   transform: scale(1);
   transition: transform 0.5s ease, opacity 1s ease;
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .is-loading.hei {
@@ -237,88 +232,68 @@ input[type="radio"]:checked + .page .page-contents > * {
 .is-loading .hei:after {
   width: 0;
 }
-.page1{
-    font-family: 'Times New Roman', Times, serif;
-    
+.page1 {
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: red solid 2px;
 }
 #exTab1 .tab-content {
-    color :rgb(36, 35, 35);
-    background-color:rgb(222, 152, 20);
-    padding : 5px 15px;
-  
-  }
-  #exTab2 .tab-content {
-    color :rgb(36, 35, 35);
-    background-color:rgb(222, 152, 20);
-    padding : 5px 15px;
-  
-  }
-  #exTab1 h4 {
-    color : rgb(36, 35, 35);
-    background-color: rgb(237, 173, 55);
-    padding : 5px 15px;
-  }
-  
-  #exTab2 h4 {
-    color : rgb(36, 35, 35);
-    background-color: rgb(237, 173, 55);
-    padding : 5px 15px;
-
-  }
-  #exTab3 h4 {
-    color : rgb(36, 35, 35);
-    background-color: rgb(237, 173, 55);
-    padding : 5px 15px;
-  }
-  #exTab2 h4:hover{
-      color:white;
+  color: rgb(36, 35, 35);
+  background-color: rgb(77, 76, 76);
+  padding: 5px 15px;
 }
-  
-  /* remove border radius for the tab */
-  
-  #exTab1 .nav-pills > li > a {
-    border-radius: 0;
-  }
-  
-  /* change border radius for the tab , apply corners on top*/
-  
-  #exTab3 .nav-pills > li > a {
-    border-radius: 4px 4px 0 0 ;
-  }
-  
-  #exTab3 .tab-content {
-    color : rgb(36, 35, 35) ;
-    background-color: rgb(237, 173, 55);
-    padding : 5px 15px;
-  }
-  #exTab1 h4:hover{
-    color:white;
-}
-#exTab3 h4:hover{
-  color:white;
-}
-#exTab1 .tab-content:hover {
+#exTab2 .tab-content {
+  color: white;
+  background-color: rgb(77, 76, 76);
+  padding: 5px 15px;
   border-radius: 10px;
   box-shadow: black 5px 5px 3px;
 }
-#exTab2 .tab-content:hover {
-  border-radius: 20px;
-  box-shadow: black 5px 5px 3px;
+#exTab1 h4 {
+  color: white;
+  background-color: rgb(77, 76, 76);
+  padding: 5px 15px;
 }
-#exTab3 .tab-content:hover {
+
+#exTab2 h4 {
+  color: white;
+  background-color: rgb(77, 76, 76);
+  padding: 5px 15px;
+}
+#exTab3 h4 {
+  color: white;
+  background-color: rgb(77, 76, 76);
+  padding: 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0;
+}
+
+#exTab3 .tab-content {
+  color: rgb(36, 35, 35);
+  background-color: rgb(77, 76, 76);
+  padding: 5px 15px;
   border-radius: 10px;
   box-shadow: black 5px 5px 3px;
 }
-
-.make:hover{
- border-bottom: 3px solid red; 
- width: 18%;
+.make {
+  border-bottom: red solid 2px;
 }
-#make:hover{
-  border-bottom: 3px solid red; 
-  width: 18%;
 
-}
-.img-fluid{
+.img-fluid {
   border-radius: 10px;
+}
+.text-home {
+  font-size: 1.2rem;
+}
+.link-home {
+  margin-bottom: 5px;
 }

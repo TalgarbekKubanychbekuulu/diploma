@@ -3,11 +3,11 @@
   max-width: 800px;
   margin: 50px auto;
   position: relative;
-  border: 5px groove rgb(83, 82, 80);
-  box-shadow: 5px 5px  black;
-  border-radius: 15px;
+  /* border: 5px solid rgb(83, 82, 80); */
+  /* box-shadow: 5px 5px  black; */
+  /* border-radius: 15px; */
   padding: 20px;
-  background-image: url(https://artline-decor.ru/images/mebel-natalie/services/kontakty.jpg);
+  /* background-image: url(https://images.squarespace-cdn.com/content/v1/5e05b29c9b4da156188e71fa/1577907732646-UYH7JHPFQ23Z4ISMZIJR/ke17ZwdGBToddI8pDm48kPqQfq0L3n3wpHIsRapTfg8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKczo5Zn4xktlpMsMj-QlHXeMfNK6GwvtVkYEWiR8XAPyD3GfLCe_DXOSC_YcAacWL_/TamSoR.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -56,6 +56,12 @@ function Logo() {
               Products{" "}
             </Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/Products2">
+              {" "}
+              Products2{" "}
+            </Link>
+          </li>
         </ul>
         <div className="overlay-content"></div>
       </div>

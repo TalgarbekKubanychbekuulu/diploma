@@ -33,6 +33,7 @@ import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import About from "./pages/About";
 import Buy from "./pages/Buy"
+import Products2 from "./pages/Products2";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/about" element={<About />} />
           <Route path="/buy" element={<Buy />} />
+          <Route path="/products2" element={<Products2 />} />
 
 
 

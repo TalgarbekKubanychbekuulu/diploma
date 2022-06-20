@@ -5,7 +5,6 @@ function Headers({ image, title, children }) {
   return (
     <div>
       <header>
-        
         <div className="overlay"></div>
 
         <video
@@ -20,16 +19,15 @@ function Headers({ image, title, children }) {
         <div className="container h-100">
           <div className="d-flex h-100 text-center align-items-center"></div>
         </div>
-        
       </header>
-     <div className="fixed">
-   <h2 className="lambo">Lamborghini</h2>
-      <p className="lambo">
-        {" "}
-        <code>Automobil</code> sport car. Italian company, manufacturer of
-        expensive sports cars{" "}
-      </p>
-    </div>
+      <div className="fixed">
+        <h2 className="lambo">Lamborghini</h2>
+        <p className="lambo">
+          {" "}
+          <code>Automobil</code> sport car. Italian company, manufacturer of
+          expensive sports cars{" "}
+        </p>
+      </div>
       <section className="my-5">
         <div className="container">
           <div className="row">

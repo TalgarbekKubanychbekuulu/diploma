@@ -139,12 +139,10 @@ function Footer() {
                     <span className="animate-border border-black"></span>
                   </div>
                   <ul>
-                  <li>
-                    <Link to="/">Home</Link>
-                  </li>
-                 
+                    <li>
+                      <Link to="/">Home</Link>
+                    </li>
 
-                 
                     <li>
                       <Link to="/">About us</Link>
                     </li>
@@ -154,7 +152,6 @@ function Footer() {
                     <li>
                       <Link to="/">Projects</Link>
                     </li>
-                   
                   </ul>
                   <ul>
                     <li>
@@ -163,8 +160,6 @@ function Footer() {
                     <li>
                       <Link to="/">Blog</Link>
                     </li>
-                   
-                   
                   </ul>
                 </div>
               </div>
@@ -214,8 +209,6 @@ function Footer() {
             <div className="col-md-6">
               <span>Copyright © 2022, All Right Reserved Lamborghini</span>
             </div>
-
-          
           </div>
         </div>
       </div>

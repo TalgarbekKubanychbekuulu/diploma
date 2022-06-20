@@ -32,7 +32,7 @@ import Home from "./pages/Home";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import About from "./pages/About";
-import Buy from "./pages/Buy"
+import Buy from "./pages/Buy";
 import Products2 from "./pages/Products2";
 
 function App() {
@@ -50,9 +50,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/buy" element={<Buy />} />
           <Route path="/products2" element={<Products2 />} />
-
-
-
 
           <Route path="*" element={<NotFound />} />
         </Routes>

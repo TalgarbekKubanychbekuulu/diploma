@@ -7,17 +7,15 @@ import { Link } from "react-router-dom";
 // import {getCategories} from "../data/categories"
 
 function Home() {
-  
   return (
     <>
-    <head>
-    <link
-      href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <Headers title="< Contacts >" image={headerImage}></Headers>
-
 
       <div className="layout">
         <input
@@ -73,8 +71,6 @@ function Home() {
         <input name="nav" type="radio" className="about-radio" id="about" />
         <div className="page about-page">
           <div className="page-contents">
-           
-           
             <div className="container">
               <h1 className="make">Models </h1>
             </div>
@@ -226,7 +222,6 @@ function Home() {
                     Lamborghini’s zodiac sign, Taurus the bull. Various
                     Lamborghini models had names related to bulls or
                     bullfighting, including the Miura (named for Don Eduardo
-                   
                   </h4>
                 </div>
               </div>
@@ -271,7 +266,6 @@ function Home() {
                     Miura, a breeder of fighting bulls), a mid-engine sports car
                     that was released in mid-1960s and gained Lamborghini an
                     international following among car enthusiasts and a
-                    
                   </h4>
                 </div>
                 <div className="tab-pane" id="2b">
@@ -327,8 +321,7 @@ function Home() {
               assumenda alias quidem asperiores?
             </p>
             <p>
-             
-                <Link to="/">Get in touch</Link>
+              <Link to="/">Get in touch</Link>
             </p>
           </div>
         </div>
@@ -347,7 +340,7 @@ function Home() {
             >
               <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
             </svg>
-           <Link to="/Contacts"> Contacts</Link>
+            <Link to="/Contacts"> Contacts</Link>
           </span>
         </label>
       </div>

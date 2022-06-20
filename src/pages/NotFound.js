@@ -6,8 +6,8 @@ function NotFound() {
     <>
       <Headers
         // title="Page not found"
-        image={headerImage}>
-     </Headers>
+        image={headerImage}
+      ></Headers>
     </>
   );
 }

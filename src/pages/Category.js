@@ -5,8 +5,6 @@
 // import { getProducts } from "../data/Products";
 // import image from "../assets/car1.jpg"
 
-
-
 // function Category() {
 //   const params = useParams();
 //   const category = getCategory(params.categoryId);
@@ -14,7 +12,7 @@
 //     return null;
 //   }
 
-//   return ( 
+//   return (
 //     <>
 //       <div>
 //         <Headers title={category.title} image={image}>
@@ -23,16 +21,13 @@
 
 //         <ProductList products={getProducts(category.categoryId)}/>
 //       </div>
-      
+
 //     </>
 //   );
 // }
 
 // export default Category;
 
-
-
-   
 import { useParams } from "react-router-dom";
 import Headers from "../Components/Headers/Headers";
 import ProductList from "../Components/ProductList/ProductList";
@@ -49,14 +44,13 @@ function Category() {
 
   return (
     <>
-    <div>
-      <Headers title={category.title} image={category.image}>
-        {category.description}
-      </Headers>
+      <div>
+        <Headers title={category.title} image={category.image}>
+          {category.description}
+        </Headers>
 
-   
-        <ProductList products={getProducts(category.categoryId)}/>
-        </div>
+        <ProductList products={getProducts(category.categoryId)} />
+      </div>
     </>
   );
 }

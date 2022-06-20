@@ -172,7 +172,7 @@ body {
   border-bottom: 1px solid white;
 } */
 .product-price {
-  color:red;
+  color: red;
   /* writing-mode: tb-rl;
   transform: rotate(230deg);
   font-size: 25px;
@@ -183,14 +183,13 @@ body {
   border-radius: 25% 10% / 10% 25%; */
 }
 .product-title {
-  color:white;
+  color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 /* .heart{
     display: flex;
 } */
-
 
 :root {
   --size: 100px;

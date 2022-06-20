@@ -1,4 +1,3 @@
-
 .get-in-touch {
   max-width: 800px;
   margin: 50px auto;
@@ -11,7 +10,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .get-in-touch .title {
   text-align: center;
@@ -20,14 +18,18 @@
   font-size: 3.2em;
   line-height: 48px;
   padding-bottom: 48px;
-  font-family: 'Times New Roman', Times, serif;
-     color: #5543ca;
-    background: #5543ca;
-    background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
-    background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
-    background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+  font-family: "Times New Roman", Times, serif;
+  color: #5543ca;
+  background: #5543ca;
+  background: -moz-linear-gradient(left, #f4524d 0%, #5543ca 100%) !important;
+  background: -webkit-linear-gradient(
+    left,
+    #f4524d 0%,
+    #5543ca 100%
+  ) !important;
+  background: linear-gradient(to right, #f4524d 0%, #5543ca 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 
 .contact-form .form-field {
@@ -46,13 +48,12 @@
 }
 .contact-form .input-text:focus {
   outline: none;
-  
 }
 .contact-form .input-text:focus + .label,
 .contact-form .input-text.not-empty + .label {
   -webkit-transform: translateY(-24px);
-          transform: translateY(-24px);
-          color: orange;
+  transform: translateY(-24px);
+  color: orange;
 }
 .contact-form .label {
   position: absolute;
@@ -63,29 +64,27 @@
   font-weight: 400;
   color: #5543ca;
   cursor: text;
-  transition: -webkit-transform .2s ease-in-out;
-  transition: transform .2s ease-in-out;
-  transition: transform .2s ease-in-out, 
-  -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 .contact-form .submit-btn {
   display: inline-block;
   background-color: #000;
-   background-image: linear-gradient(125deg,#a72879,#064497);
+  background-image: linear-gradient(125deg, #a72879, #064497);
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 16px;
   padding: 8px 16px;
   border: none;
-  width:200px;
+  width: 200px;
   cursor: pointer;
   border-radius: 10px;
-  font-family: 'Times New Roman', Times, serif;
-
+  font-family: "Times New Roman", Times, serif;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
   box-shadow: 3px 3px 2px rgb(93, 91, 91);
   margin-left: 5px;
 }

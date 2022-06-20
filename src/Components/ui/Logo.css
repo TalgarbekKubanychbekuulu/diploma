@@ -12,7 +12,6 @@ nav {
   font-family: "Abril Fatface", cursive;
   font-family: "Bebas Neue", cursive;
   font-family: "Cinzel", serif;
-  
 }
 /* .navbar-nav:hover{
 background-color: red;
@@ -50,12 +49,9 @@ li:hover {
   color: gray;
 }
 
-
 .closebtn:hover {
   color: #ccc;
 }
-
-
 
 .input[type="text"]:hover {
   background: #f1f1f1;
@@ -120,7 +116,7 @@ form {
 .dk-footer-form input:-ms-input-placeholder,
 .dk-footer-form input::-ms-input-placeholder,
 .dk-footer-form input::-webkit-input-placeholder {
-  color:White;
+  color: White;
   font-size: 14px;
 }
 .dk-footer-form input::-webkit-input-placeholder,
@@ -128,7 +124,7 @@ form {
 .dk-footer-form input:-ms-input-placeholder,
 .dk-footer-form input::-ms-input-placeholder,
 .dk-footer-form input::placeholder {
-  color:white;
+  color: white;
   font-size: 14px;
 }
 .dk-footer-form button[type="submit"] {

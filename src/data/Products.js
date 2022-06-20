@@ -2,19 +2,19 @@ import productImage from "../assets/car3.jpg";
 import productImage2 from "../assets/Lampo3.jpg";
 // import productImage3 from "../assets/lampo4.jpg";
 // import productImage1 from "../assets/lampo2.jpg";
-import parts from "../assets/titan.jpg"
-import wdImage from "../assets/4wd.jpg"
-import model from "../assets/new lambo.jpg"
+import parts from "../assets/titan.jpg";
+import wdImage from "../assets/4wd.jpg";
+import model from "../assets/new lambo.jpg";
 
-import "./Products.css"
+import "./Products.css";
 
-  const products = [
-    {
-      image: productImage2,
-      productId: "inter_cars",
-      categoryId: "inter_cars",
-      title: "lamborghini",
-      description: `When the fruit is ripe, it is almost always handpicked, using either "selective picking", where only the ripe fruit is removed, or "strip-picking", where all of the fruit is removed from a limb all at once. Selective picking is often used to produce higher quality coffee because the cherries are picked at their ripest. Strip-picking is indiscriminate and will harvest unripe, ripe, and over-ripe fruit. To improve quality after strip-picking, the harvest must be sorted.`,
+const products = [
+  {
+    image: productImage2,
+    productId: "inter_cars",
+    categoryId: "inter_cars",
+    title: "lamborghini",
+    description: `When the fruit is ripe, it is almost always handpicked, using either "selective picking", where only the ripe fruit is removed, or "strip-picking", where all of the fruit is removed from a limb all at once. Selective picking is often used to produce higher quality coffee because the cherries are picked at their ripest. Strip-picking is indiscriminate and will harvest unripe, ripe, and over-ripe fruit. To improve quality after strip-picking, the harvest must be sorted.`,
   },
   //   {
   //     image: productImage1,
@@ -44,50 +44,48 @@ import "./Products.css"
   //     title: "lamborghini",
   //     description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
   //   },
-    {
-      image: productImage,
-      productId: "Inter_Car",
-      categoryId: "inter_cars",
-      title: "lamborghini",
-      description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-      h2:"AVENTADOR LP 780-4 ULTIMAE",
-
-    },
-    {
-      image: parts,
-      productId: "Auto-Parts",
-      categoryId: "Auto-Parts",
-      title: "Auto Parts",
-      description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
-    },
-    {
-      image: wdImage,
-      productId: "Other-Models",
-      categoryId: "Other-Models",
-      title: "Other Models",
-      description: `Clinical research indicates that moderate coffee consumption is benign or mildly
+  {
+    image: productImage,
+    productId: "Inter_Car",
+    categoryId: "inter_cars",
+    title: "lamborghini",
+    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    h2: "AVENTADOR LP 780-4 ULTIMAE",
+  },
+  {
+    image: parts,
+    productId: "Auto-Parts",
+    categoryId: "Auto-Parts",
+    title: "Auto Parts",
+    description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
+  },
+  {
+    image: wdImage,
+    productId: "Other-Models",
+    categoryId: "Other-Models",
+    title: "Other Models",
+    description: `Clinical research indicates that moderate coffee consumption is benign or mildly
        beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-    },
-    {
-      image: model,
-      productId: "New-models",
-      categoryId: "New-models",
-     title: "New models",
-     description:"The Aventador has been created to anticipate the future, as demonstrated by the use of innovative technology, including a V12 engine and the extensive use of carbon fiber. The authentic design masterpieces together stark dynamism with aggression to produce a cutting edge carbon fiber monocoque.",
-    },
-  ];
+  },
+  {
+    image: model,
+    productId: "New-models",
+    categoryId: "New-models",
+    title: "New models",
+    description:
+      "The Aventador has been created to anticipate the future, as demonstrated by the use of innovative technology, including a V12 engine and the extensive use of carbon fiber. The authentic design masterpieces together stark dynamism with aggression to produce a cutting edge carbon fiber monocoque.",
+  },
+];
 
-  export function getProducts(categoryId) {
-    if (categoryId) {
-      return products.filter(product => product.categoryId === categoryId);
-    }
-    return products;
+export function getProducts(categoryId) {
+  if (categoryId) {
+    return products.filter((product) => product.categoryId === categoryId);
   }
-  
-  export function getProduct(productId) {
-    return products[
-      products.findIndex(
-        products =>  products.productId === productId
-      )
-    ];
-  }
+  return products;
+}
+
+export function getProduct(productId) {
+  return products[
+    products.findIndex((products) => products.productId === productId)
+  ];
+}

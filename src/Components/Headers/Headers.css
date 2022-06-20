@@ -1,13 +1,11 @@
-
 header {
   position: relative;
-  
+
   height: 75vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
   padding-top: -30px;
-  
 }
 
 header video {
@@ -47,13 +45,11 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("https://1.bp.blogspot.com/-Fo7pKzwNYvM/YOrTPzC6bmI/AAAAAAAALSM/IynjNy69D0Mz93lxb8rvWoeiFlKOFT_-gCLcBGAsYHQ/s16000/Daftar%2BMobil%2BLamborgini.png") black
-      no-repeat center ;
-     
+    background: url("https://1.bp.blogspot.com/-Fo7pKzwNYvM/YOrTPzC6bmI/AAAAAAAALSM/IynjNy69D0Mz93lxb8rvWoeiFlKOFT_-gCLcBGAsYHQ/s16000/Daftar%2BMobil%2BLamborgini.png")
+      black no-repeat center;
   }
 
   header video {
     display: none;
   }
 }
-

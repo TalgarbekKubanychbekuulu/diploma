@@ -66,26 +66,26 @@ function Logo() {
         <div className="overlay-content"></div>
       </div>
       <form action="#">
-                    <div className="form-row">
-                      <div className="col dk-footer-form">
-                        <input
-                          type="email"
-                          className="form-control"
-                          placeholder="Search..."
-                        />
-                        <button className="seb" type="submit">
-                          <img
-                            src="https://cdn-icons.flaticon.com/png/512/3031/premium/3031293.png?token=exp=1653470541~hmac=9bbec02cf1ebdbecc6f3d73af206bfed"
-                            alt="footer_logo"
-                            width="20px"
-                            height="20px"
-                            className="search"
-                          />
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-                  </nav>
+        <div className="form-row">
+          <div className="col dk-footer-form">
+            <input
+              type="email"
+              className="form-control"
+              placeholder="Search..."
+            />
+            <button className="seb" type="submit">
+              <img
+                src="https://cdn-icons.flaticon.com/png/512/3031/premium/3031293.png?token=exp=1653470541~hmac=9bbec02cf1ebdbecc6f3d73af206bfed"
+                alt="footer_logo"
+                width="20px"
+                height="20px"
+                className="search"
+              />
+            </button>
+          </div>
+        </div>
+      </form>
+    </nav>
   );
 }
 

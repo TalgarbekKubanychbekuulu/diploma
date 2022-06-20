@@ -16,8 +16,6 @@ function About() {
             Italian Lamborghini boilers are technologically advanced, but
             extremely expensive boiler units, which explains their low
             prevalence and demand. Gas models have excellent characteristics
-           
-           
           </p>
 
           <img
@@ -36,13 +34,10 @@ function About() {
             In the article, we will consider the best models of Lamborghini gas
             and solid fuel, wall-mounted and floor-standing boilers, how they
             behave in practice, what advantages and, most importantly,
-         
           </p>
 
           <h2>Secrets of Lamborghini engines</h2>
-          <b>
-            Home Cars Cars Six secrets of Lamborghini engines 
-          </b>
+          <b>Home Cars Cars Six secrets of Lamborghini engines</b>
 
           <p>
             The dream of every driver is the “brainchild” of the Italian car
@@ -66,22 +61,17 @@ function About() {
             regulators. Their presence is typical for vehicles with advanced
             equipment. The main task of the regulator is to supply fuel.
             Moreover, he does this based on the existing loads on the system,
-           
           </p>
           <p>
             Jewelry: Whether your jewelry box contains just one nice watch or a
             host of bangles, statement necklaces, chandelier earrings, and
             chokers, you probably turn to jewelry when you’re looking to add a
-           
           </p>
-          
 
           <p>
             What is the fate of a four-cylinder engine? Car enthusiasts often
             prefer to order Lamborghini Gallardo engine tuning, what is the
             reason for this? The two-seater coupe was introduced in 2003 as part
-            
-            
           </p>
 
           <img
@@ -109,7 +99,6 @@ function About() {
             1. Your accessories don’t need to match. Matching accessories can
             read more conservative than fashion-forward. <br />
             2.If you’re not sure which colors go together, start by adding one
-
           </p>
 
           <br />
@@ -134,7 +123,6 @@ function About() {
                 huge Volkswagen AG concern. It specializes in the production of
                 high-speed supercars capable of accelerating to speeds of 350
                 km/h and even more. At first, the activity of the enterprise was
-              
               </p>
               <p className="end"></p>
             </div>

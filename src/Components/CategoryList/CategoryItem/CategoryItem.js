@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import classes from "./CategoryItem.module.css";
-import categoryImage from "../../../assets/car1.jpg"
+import categoryImage from "../../../assets/car1.jpg";
 
 function CategoryItem({ category }) {
   return (

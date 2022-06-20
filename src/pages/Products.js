@@ -97,7 +97,7 @@ function Products() {
                     </li>
                   </ul>
                 </div>
-                
+
                 <div className="part-2">
                   <h3 className="product-title">Lamborghini sport car</h3>
                   <h4 className="product-price">$49.99</h4>
@@ -143,7 +143,7 @@ function Products() {
                 </div>
               </div>
             </div>
-            
+
             <div className="col-md-6 col-lg-4 col-xl-3">
               <div id="product-4" className="single-product">
                 <div className="part-1">
@@ -337,7 +337,6 @@ function Products() {
                   <h3 className="product-title">Lamborghini sport car</h3>
                   <h4 className="product-price">$49.99</h4>
                 </div>
-                
               </div>
             </div>
           </div>

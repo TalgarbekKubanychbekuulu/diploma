@@ -35,9 +35,7 @@
   margin-right: 2%;
   margin-bottom: 2%;
   border-radius: 10px;
-  box-shadow: 5px 5px 3px  rgb(95, 93, 93);
-
-
+  box-shadow: 5px 5px 3px rgb(95, 93, 93);
 }
 .samera10 {
   float: right;
@@ -46,8 +44,8 @@
   margin-left: 2%;
   margin-bottom: 2%;
   border-radius: 10px;
-  box-shadow: 6px 6px 3px  rgb(95, 93, 93);
-/* }
+  box-shadow: 6px 6px 3px rgb(95, 93, 93);
+  /* }
 .samera9:hover{
    
     margin-top: 1%;

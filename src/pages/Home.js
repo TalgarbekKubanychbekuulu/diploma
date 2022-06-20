@@ -226,19 +226,7 @@ function Home() {
                     Lamborghini’s zodiac sign, Taurus the bull. Various
                     Lamborghini models had names related to bulls or
                     bullfighting, including the Miura (named for Don Eduardo
-                    Miura, a breeder of fighting bulls), a mid-engine sports car
-                    that was released in mid-1960s and gained Lamborghini an
-                    international following among car enthusiasts and a
-                    reputation for prestige and cutting-edge design. In the
-                    early 1970s, Lamborghini’s tractor business experienced
-                    problems and he eventually sold his interest in his sports
-                    car business and retired to his vineyard. Automobili
-                    Lamborghini changed hands several times and in the late
-                    1990s was purchased by German automaker Volkswagen. The
-                    company continued to build high-performance cars, including
-                    the Murcielago (capable of going over 200 mph) and the
-                    Gallardo. Ferruccio Lamborghini died on February 20, 1993,
-                    at the age of 76.
+                   
                   </h4>
                 </div>
               </div>
@@ -283,16 +271,7 @@ function Home() {
                     Miura, a breeder of fighting bulls), a mid-engine sports car
                     that was released in mid-1960s and gained Lamborghini an
                     international following among car enthusiasts and a
-                    reputation for prestige and cutting-edge design. In the
-                    early 1970s, Lamborghini’s tractor business experienced
-                    problems and he eventually sold his interest in his sports
-                    car business and retired to his vineyard. Automobili
-                    Lamborghini changed hands several times and in the late
-                    1990s was purchased by German automaker Volkswagen. The
-                    company continued to build high-performance cars, including
-                    the Murcielago (capable of going over 200 mph) and the
-                    Gallardo. Ferruccio Lamborghini died on February 20, 1993,
-                    at the age of 76.
+                    
                   </h4>
                 </div>
                 <div className="tab-pane" id="2b">

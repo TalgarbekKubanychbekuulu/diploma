@@ -1,27 +1,3 @@
-// import Home from "./pages/Home";
-// import Contacts from "./pages/Contacts";
-// import Products from "./pages/Products";
-// import Category from "./pages/Category";
-// import { Route, Routes } from "react-router-dom";
-// import Layout from "./Components/Layout/Layout";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Layout>
-//         <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/products" element={<Products />} />
-//         <Route path="/contacts" element={<Contacts />} />
-//         <Route path="/category" element={<Category />} />
-//         </Routes>
-//       </Layout>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import Contacts from "./pages/Contacts";
 import Products from "./pages/Products";
 import { Route, Routes } from "react-router-dom";

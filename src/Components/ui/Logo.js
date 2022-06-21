@@ -1,5 +1,6 @@
 import "./Logo.css";
 import logo from "../../assets/logotip1.png";
+import search1 from "../../assets/search.png";
 import { Link } from "react-router-dom";
 function Logo() {
   <head>
@@ -75,11 +76,11 @@ function Logo() {
             />
             <button className="seb" type="submit">
               <img
-                src="https://cdn-icons.flaticon.com/png/512/3031/premium/3031293.png?token=exp=1653470541~hmac=9bbec02cf1ebdbecc6f3d73af206bfed"
-                alt="footer_logo"
+                src={search1}
                 width="20px"
                 height="20px"
                 className="search"
+                alt="serch"
               />
             </button>
           </div>

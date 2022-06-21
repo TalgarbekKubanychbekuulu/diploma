@@ -2,7 +2,7 @@ import Headers from "../Components/Headers/Headers";
 import headerImage from "../assets/lampo.jpg";
 // import ProductList from "../Components/ProductList/ProductList";
 // import { getProducts } from "../data/Products";
-import "./ser.css";
+import "./Products.css";
 import { Link } from "react-router-dom";
 function Products() {
   return (

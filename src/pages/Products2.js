@@ -1,4 +1,4 @@
-import "./products2.css";
+import "./Products2.css";
 import { Link } from "react-router-dom";
 
 function Products2() {

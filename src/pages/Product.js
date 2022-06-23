@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import CartButton from "../Components/CartButton/CartButton";
 import Headers from "../Components/Headers/Headers";
 import { getProducts } from "../data/Products";
 
@@ -15,6 +16,8 @@ function Product() {
       <Headers title={product.title} image={product.image}>
         {product.description}
       </Headers>
+      <CartButton productId={product.id} />
+
     </>
   );
 }

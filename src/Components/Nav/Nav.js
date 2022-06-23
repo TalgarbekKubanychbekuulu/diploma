@@ -1,8 +1,11 @@
 import Logo from "../ui/Logo";
-
 function Nav() {
   return (
-  <Logo />
+    <>
+    <Logo />
+    </>
+  
+
   );
 }
 

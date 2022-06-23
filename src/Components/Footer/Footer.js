@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import twi from "../../assets/FooterImages/twitter7.png"
 
 <head>
   <link
@@ -78,10 +79,10 @@ function Footer() {
                     <Link to="/">
                       {" "}
                       <img
-                        src="https://cdn-icons.flaticon.com/png/512/3670/premium/3670127.png?token=exp=1653456463~hmac=0b0cd1601a2c745755bd18db73907fba"
+                        src={twi}
                         alt="footer_logo"
-                        width="33x"
-                        height="33px"
+                        width="40px"
+                        height="30px"
                         className="send"
                       />
                     </Link>

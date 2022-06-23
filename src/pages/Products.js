@@ -16,6 +16,8 @@ function Products() {
 
       <section className="section-products">
         <div className="container">
+
+
           <div className="row justify-content-center text-center">
             <div className="col-md-8 col-lg-6">
               <div className="header">
@@ -24,6 +26,9 @@ function Products() {
               </div>
             </div>
           </div>
+
+
+
           <div className="row">
             <div className="col-md-6 col-lg-4 col-xl-3">
               <div id="product-1" className="single-product">
@@ -64,6 +69,11 @@ function Products() {
                 </div>
               </div>
             </div>
+
+
+
+
+
             <div className="col-md-6 col-lg-4 col-xl-3">
               <div id="product-2" className="single-product">
                 <div className="part-1">
@@ -144,6 +154,9 @@ function Products() {
               </div>
             </div>
 
+
+
+
             <div className="col-md-6 col-lg-4 col-xl-3">
               <div id="product-4" className="single-product">
                 <div className="part-1">
@@ -222,6 +235,11 @@ function Products() {
                 </div>
               </div>
             </div>
+
+
+
+
+            
             <div className="col-md-6 col-lg-4 col-xl-3">
               <div id="product-2" className="single-product">
                 <div className="part-1">

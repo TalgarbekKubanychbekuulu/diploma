@@ -2,6 +2,8 @@ import "./Logo.css";
 import logo from "../../assets/logotip1.png";
 import search1 from "../../assets/search.png";
 import { Link } from "react-router-dom";
+import CartLink from "../CartLink/CartLink";
+
 function Logo() {
   <head>
     <link
@@ -25,10 +27,10 @@ function Logo() {
         Inter_Car{" "}
       </Link>
 
-      <Link className="buy" to="/">
+      {/* <Link className="buy" to="/">
         {" "}
         Buy{" "}
-      </Link>
+      </Link> */}
 
       <button
         className="navbar-toggler"
@@ -38,6 +40,9 @@ function Logo() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
+
+
+
       <div className="collapse navbar-collapse" id="collapsibleNavbar">
         <ul className="navbar-nav">
           <li className="nav-item">
@@ -64,6 +69,8 @@ function Logo() {
             </Link>
           </li>
         </ul>
+        <CartLink  />
+
         <div className="overlay-content"></div>
       </div>
       <form action="#">
@@ -85,8 +92,9 @@ function Logo() {
             </button>
           </div>
         </div>
-      </form>
+        </form>
     </nav>
+      
   );
 }
 

@@ -70,4 +70,3 @@ function Contacts() {
 }
 
 export default Contacts;
-npm

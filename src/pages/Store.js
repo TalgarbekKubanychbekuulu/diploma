@@ -357,3 +357,12 @@
 //     babel(babelConfig),
 //     write('build/')
 //   )
+
+
+function Store() {
+    return ( 
+        <div></div>
+     );
+}
+
+export default Store;

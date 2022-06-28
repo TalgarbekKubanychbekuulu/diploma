@@ -142,3 +142,7 @@ form {
 .dk-footer-form button:hover {
   cursor: pointer;
 }
+.sing{
+  margin-top: 7px;
+  font-size: 1.2rem;
+}

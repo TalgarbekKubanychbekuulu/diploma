@@ -1,6 +1,6 @@
-import Headers from "../Components/Headers/Headers";
+import Headers from "../components/Headers/Headers";
 import headerImage from "../assets/headers03.jpg";
-import "./About.css";
+import React from "react";
 
 function About() {
   return (

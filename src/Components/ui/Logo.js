@@ -3,17 +3,11 @@ import logo from "../../assets/logotip1.png";
 import search1 from "../../assets/search.png";
 import { Link } from "react-router-dom";
 import CartLink from "../CartLink/CartLink";
+import React from "react";
+import { useSelector } from "react-redux";
 
 function Logo() {
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  </head>;
+  const isAuthenticated = useSelector((store) => store.auth.idToken !== null);
 
   return (
     <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -26,6 +20,7 @@ function Logo() {
         {" "}
         Inter_Car{" "}
       </Link>
+      <CartLink />
 
       {/* <Link className="buy" to="/">
         {" "}
@@ -41,8 +36,6 @@ function Logo() {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-
-
       <div className="collapse navbar-collapse" id="collapsibleNavbar">
         <ul className="navbar-nav">
           <li className="nav-item">
@@ -51,9 +44,11 @@ function Logo() {
               Home{" "}
             </Link>
           </li>
+
           <li className="nav-item">
-            <Link className="nav-link" to="/Contacts">
-              Contacts{" "}
+            <Link className="nav-link" to="/Buy">
+              {" "}
+              Store{" "}
             </Link>
           </li>
           <li className="nav-item">
@@ -68,8 +63,18 @@ function Logo() {
               Products2{" "}
             </Link>
           </li>
+          <li className="nav-item">
+            {" "}
+            {isAuthenticated ? <Link to="/signout">Sign out</Link> : null}
+            {!isAuthenticated ? (
+              <Link className="sing" to="/auth">
+                Sign in
+              </Link>
+            ) : null}{" "}
+            
+          </li>
         </ul>
-        <CartLink  />
+        {/* <CartLink  /> */}
 
         <div className="overlay-content"></div>
       </div>
@@ -92,9 +97,8 @@ function Logo() {
             </button>
           </div>
         </div>
-        </form>
+      </form>
     </nav>
-      
   );
 }
 

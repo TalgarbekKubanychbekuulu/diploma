@@ -1,20 +1,9 @@
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import twi from "../../assets/FooterImages/twitter7.png"
+import twi from "../../assets/FooterImages/twitter7.png";
+import send from "../../assets/FooterImages/send.png";
+import React from "react";
 
-<head>
-  <link
-    href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    rel="stylesheet"
-    id="bootstrap-css"
-  />
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-  />
-</head>;
 function Footer() {
   return (
     <footer id="dk-footer" className="dk-footer">
@@ -92,7 +81,6 @@ function Footer() {
             </div>
             <div className="footer-awarad">
               <img src="images/icon/best.png" alt="" />
-              <p>Best Design Company 2022</p>
             </div>
           </div>
           <div className="col-md-12 col-lg-8">
@@ -187,7 +175,7 @@ function Footer() {
                         <button className="seb" type="submit">
                           {/* <i className="fa fa-send"></b> */}
                           <img
-                            src="http://cdn.onlinewebfonts.com/svg/img_446833.png"
+                            src={send}
                             alt="footer_logo"
                             width="20px"
                             height="20px"

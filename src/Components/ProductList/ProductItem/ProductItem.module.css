@@ -1,11 +1,13 @@
 .ProductItem img {
-  width: 100%;
+  width: 350px;
+  height: 250px;
   object-fit: cover;
   object-position: center;
   border-radius: 10%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   /* z-index: 2; */
   margin: 0;
+  flex-wrap: wrap;
 }
 .ProductItem {
   position: relative;
@@ -13,6 +15,7 @@
   margin-bottom: 5rem;
   margin-top: 1rem;
 }
+
 .ProductItem a {
   position: absolute;
   bottom: -3.5rem;
@@ -39,8 +42,14 @@
   right: 0;
 
   color: white;
-  font-weight: bold;
-  font-size: 1.3rem;
+  font-weight: none;
+  font-size: 0.1rem;
   padding: 2rem;
-  text-align: center;
+  text-align: right;
+}
+.ProductItem a {
+  color: rgb(204, 199, 199);
+}
+.ProductItem a:hover {
+  color: rgb(198, 90, 23);
 }

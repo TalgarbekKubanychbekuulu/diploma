@@ -1,7 +1,10 @@
-import "./Pages.css";
-import "./Home.css";
-import Headers from "../Components/Headers/Headers";
-import headerImage from "../assets/headers03.jpg";
+import "../components/Css/General.css";
+
+import cars from "../assets/news.mp4";
+import React from "react";
+
+// import Headers from "../Components/Headers/Headers";
+// import headerImage from "../assets/headers03.jpg";
 import { Link } from "react-router-dom";
 // import CategoryList from "../Components/CategoryList/CategoryList";
 // import {getCategories} from "../data/categories"
@@ -15,7 +18,37 @@ function Home() {
           rel="stylesheet"
         />
       </head>
-      <Headers title="< Contacts >" image={headerImage}></Headers>
+      <header>
+        <div className="overlay"></div>
+
+        <video
+          playsinline="playsinline"
+          autoplay="autoplay"
+          muted="muted"
+          loop="loop"
+        >
+          <source src={cars} type="video/mp4" />
+        </video>
+
+        <div className="container h-100">
+          <div className="d-flex h-100 text-center align-items-center"></div>
+        </div>
+      </header>
+      <div className="fixed">
+        <h2 className="lambo">Lamborghini</h2>
+        <p className="lambo">
+          {" "}
+          <code>Automobil</code> sport car. Italian company, manufacturer of
+          expensive sports cars{" "}
+        </p>
+      </div>
+      <section className="my-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8 mx-auto"></div>
+          </div>
+        </div>
+      </section>
 
       <div className="layout">
         <input
@@ -262,10 +295,7 @@ function Home() {
                     The company’s logo featured a bull, a reference to Ferruccio
                     Lamborghini’s zodiac sign, Taurus the bull. Various
                     Lamborghini models had names related to bulls or
-                    bullfighting, including the Miura (named for Don Eduardo
-                    Miura, a breeder of fighting bulls), a mid-engine sports car
-                    that was released in mid-1960s and gained Lamborghini an
-                    international following among car enthusiasts and a
+                    bullfighting, including the Miura
                   </h4>
                 </div>
                 <div className="tab-pane" id="2b">
@@ -340,7 +370,7 @@ function Home() {
             >
               <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
             </svg>
-            <Link to="/Contacts"> Contacts</Link>
+            <Link to="/Auth"> Contacts</Link>
           </span>
         </label>
       </div>

@@ -357,59 +357,12 @@
 //     babel(babelConfig),
 //     write('build/')
 //   )
-import "./ser.css"
+
 import React from "react";
 function Store() {
     return ( 
         <div>
-            <header id="header">
-  <div class="logo-wrapper">
-    <img src="https://pngimg.com/uploads/lamborghini/lamborghini_PNG10709.png" alt="" class="logo"/>
-  </div>
-
-  <nav id="top-menu">
-    <a href="#" class="menu-item">Home</a>
-    <a href="#" class="menu-item">About</a>
-    <a href="#" class="menu-item">Gallery</a>
-    <a href="#" class="menu-item">Contacts</a>
-  </nav>
-</header>
-
-<div id="content">
-  <div id="gallery-wrapper">
-
-    <a data-fancybox="gallery" href="https://auto.vercity.ru/gallery/img/automobiles/Lamborghini/2017%20Lamborghini%20Aventador%20LP750-4%20Superveloce%20on%20Forgiato%20Wheels%20(S203-ECL)/dl/1502544799.jpg">
-      <img src="https://auto.vercity.ru/gallery/img/automobiles/Lamborghini/2017%20Lamborghini%20Aventador%20LP750-4%20Superveloce%20on%20Forgiato%20Wheels%20(S203-ECL)/dl/1502544799.jpg"/>
-    </a>
-
-    <a data-fancybox="gallery" href="https://www.mercedes-benz.ua/passengercars/mercedes-benz-cars/models/s-class/coupe-c217/design/line-comparison/_jcr_content/comparisonslider/par/comparisonslide_c9f2/exteriorImage.MQ6.12.20190807122914.jpeg">
-      <img src="https://www.mercedes-benz.ua/passengercars/mercedes-benz-cars/models/s-class/coupe-c217/design/line-comparison/_jcr_content/comparisonslider/par/comparisonslide_c9f2/exteriorImage.MQ6.12.20190807122914.jpeg"/>
-    </a>
-
-    <a data-fancybox="gallery" href="https://trendymen.ru/images/article1/118018/attachments//ffa8f479645c892e12e672d8b13e5.jpg">
-      <img src="https://trendymen.ru/images/article1/118018/attachments//ffa8f479645c892e12e672d8b13e5.jpg"/>
-    </a>
-
-    <a data-fancybox="gallery" href="https://autofakty.ru/wp-content/uploads/10-597-640x426.jpg">
-      <img src="https://autofakty.ru/wp-content/uploads/10-597-640x426.jpg"/>
-    </a>
-
-    <a data-fancybox="gallery" href="https://upload.wikimedia.org/wikipedia/commons/a/a9/Porsche_Cayenne_S_%2892A%29_%E2%80%93_Frontansicht%2C_10._Oktober_2011%2C_W%C3%BClfrath.jpg">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Porsche_Cayenne_S_%2892A%29_%E2%80%93_Frontansicht%2C_10._Oktober_2011%2C_W%C3%BClfrath.jpg"/>
-    </a>
-
-    <a data-fancybox="gallery" href="https://cdn.riastatic.com/photosnew/auto/photo/Land-Rover_Range-Rover-Sport__238684549f.jpg">
-      <img src="https://cdn.riastatic.com/photosnew/auto/photo/Land-Rover_Range-Rover-Sport__238684549f.jpg"/>
-    </a>
-
-  </div>
-</div>
-
-<footer id="footer">
-  <div id="copyright">
-    Шаблон разработан програмистом "Ревуженко Миша"
-  </div>
-</footer>
+            
         </div>
      );
 }

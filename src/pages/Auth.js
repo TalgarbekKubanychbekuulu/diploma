@@ -3,6 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { start } from "../redux/authSlice";
 import React from "react";
 import "../components/Css/General.css";
+import email1 from "../assets/email.png"
+import lock1 from "../assets/lock3.png"
+
 export default function Auth() {
   const dispatch = useDispatch();
   const { error, localId } = useSelector((store) => store.auth);
@@ -43,11 +46,21 @@ export default function Auth() {
         alt=""
       />
       <label>
-        Email:
+      <img
+        src={email1}
+        height="30"
+        width="30"
+        alt=""
+      /> Email:
         <input className="email" type="email" name="email" />
       </label>
       <label>
-        Password:
+      <img
+        src={lock1}
+        height="30"
+        width="30"
+        alt=""
+      />Password:
         <input className="email2" type="password" name="password" />
       </label>
       <div className="display-flex">

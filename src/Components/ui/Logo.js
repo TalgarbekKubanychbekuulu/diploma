@@ -46,7 +46,7 @@ function Logo() {
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link" to="/Buy">
+            <Link className="nav-link" to="/Store">
               {" "}
               Store{" "}
             </Link>

@@ -13,7 +13,7 @@ export default function CartLink() {
   });
 
   return (
-    <NavLink to="/cart">
+    <NavLink to="/cart1">
       <img src={kor} alt="" className="koro" />({number})
     </NavLink>
   );

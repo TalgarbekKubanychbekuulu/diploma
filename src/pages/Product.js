@@ -20,20 +20,21 @@ function Product() {
           justifyContent: "center",
           padding: "3rem",
           color: "white",
-          border: "orange solid 3px",
           borderRadius: "10px",
           marginBottom: "100px",
           marginTop: "50px",
-          backgroundColor: "",
+          flexWrap:"wrap",
+          border:"orange 3px dashed"
         }}
       >
         <img
           style={{
-            maxWwidth: "500px",
+            maxWidth: "530px",
             height: "300px",
             padding: " 1rem",
             flex: " 0 0 250px",
             borderRadius: "30px",
+
           }}
           src={product.image}
           alt={product.title}
@@ -46,6 +47,7 @@ function Product() {
               marginTop: "0",
               color: "orange",
               borderBottom: "red dashed 2px",
+
             }}
           >
             {product.title}
@@ -55,6 +57,9 @@ function Product() {
               maxWidth: "600px",
               fontFamily: "Montserrat, sans-serif",
               color: "white",
+              width:"300px"
+
+
             }}
           >
             {product.description}

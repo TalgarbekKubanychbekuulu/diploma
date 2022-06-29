@@ -357,44 +357,48 @@
 //     babel(babelConfig),
 //     write('build/')
 //   )
-
+import "../components/Css/General.css";
+import { Link } from "react-router-dom";
 import React from "react";
 function Store() {
     return ( 
         <div>
-               <section id="slider" class="section">
-      <div class="slider">
-        <div class="slider__container">
-          <div class="slider__item slide-burger">
-            <div class="slider__content grid">
-              <div class="column">
-                <h1 class="title">Veggie</h1>
-                <h1 class="title">Burguer</h1>
-              </div>
-              <div class="column"><img src="https://mverissimo.github.io/tweenslideshow/dist/assets/images/burger.png/" alt="/" class="image burger"/></div>
-            </div>
-          </div>
-          <div class="slider__item slide-astronaut">
-            <div class="slider__content grid">
-              <div class="column">
-                <h1 class="title">lost</h1>
-                <h1 class="title">in space</h1>
-              </div>
-              <div class="column"><img src="https://mverissimo.github.io/tweenslideshow/dist/assets/images/astronaut.png/" alt="/" class="image astronaut"/></div>
-            </div>
-          </div>
-          <div class="slider__item slide-coffee">
-            <div class="slider__content grid">
-              <div class="column">
-                <h1 class="title">I Love</h1>
-                <h1 class="title">Coffee</h1>
-              </div>
-              <div class="column"><img src="https://mverissimo.github.io/tweenslideshow/dist/assets/images/cup-2.png/" alt="/" class="image cup"/></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> 
+               <div class="container">
+  <h1 className="h11">Mountain Star Zlatibor</h1>
+  <p className="text-store"> Zlatibor is a mountain of exceptional beauty whose special geographical properties have made this mountain a real gem of western Serbia.</p>
+  <Link className="links" to="/">Learn more</Link>
+</div>
+
+<div class="blank"></div>
+
+<div class="container second">
+  <div class="item">
+    <div class="img img-first"></div>
+    <div class="card">
+      <h3 className="text-big">Rock climbing</h3>
+      <p>The goal is to reach the summit of a formation or the endpoint of a usually pre-defined route without falling</p>
+      <Link to="/">Learn more</Link>
+    </div>
+  </div>
+  <div class="item">
+    <div class="img img-second"></div>
+    <div class="card">
+      <h3>Caving</h3>
+      <p>Exploring underground through networks of tunnels and passageways, which can be natural or artificial.</p>
+      <Link className="links" to="/">Learn more</Link>
+    </div>
+  </div>
+  <div class="item">
+    <div class="img img-third"></div>
+    <div class="card">
+      <h3>Parachuting</h3>
+      <p>Jumping from an aeroplane and falling through the air before opening your parachute.</p>
+      <Link className="links" to="/">Learn more</Link>
+    </div>
+  </div>
+</div>
+
+<div class="blank"></div>
         </div>
      );
 }

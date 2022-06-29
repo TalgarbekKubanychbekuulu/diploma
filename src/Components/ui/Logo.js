@@ -6,7 +6,7 @@ import CartLink from "../CartLink/CartLink";
 import React from "react";
 import { useSelector } from "react-redux";
 
-function Logo() {
+function Logo({ callback }) {
   const isAuthenticated = useSelector((store) => store.auth.idToken !== null);
 
   return (
@@ -48,7 +48,7 @@ function Logo() {
           <li className="nav-item">
             <Link className="nav-link" to="/Store">
               {" "}
-              Store{" "}
+              Stories{" "}
             </Link>
           </li>
           <li className="nav-item">
@@ -71,7 +71,6 @@ function Logo() {
                 Sign in
               </Link>
             ) : null}{" "}
-            
           </li>
         </ul>
         {/* <CartLink  /> */}

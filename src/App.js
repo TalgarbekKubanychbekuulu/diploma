@@ -14,7 +14,7 @@ import Auth from "./pages/Auth";
 import Products2 from "./pages/Products2";
 import React from "react";
 import SignOut from "./pages/SignOut";
-import Cart from "./pages/Cart1";
+import Cart1 from "./pages/Cart1";
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
 
           <Route path="/about" element={<About />} />
           <Route path="/store" element={<Store />} />
-          <Route path="/cart" element={<Cart />} />
+          <Route path="/cart1" element={<Cart1 />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/signout" element={<SignOut />} />

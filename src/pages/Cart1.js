@@ -9,7 +9,7 @@ import { decrement, increment, remove } from "../redux/cartSlice";
 import React from 'react'
 
 
-function Cart() {
+function Cart1() {
   const items = useSelector(store => store.cart.items);
   const dispatch = useDispatch();
   const products = getProducts();
@@ -62,4 +62,4 @@ function Cart() {
   );
 }
 
-export default Cart;
+export default Cart1;

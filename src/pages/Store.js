@@ -371,7 +371,7 @@ function Store() {
                 <h1 class="title">Veggie</h1>
                 <h1 class="title">Burguer</h1>
               </div>
-              <div class="column"><img src="https://mverissimo.github.io/tweenslideshow/dist/assets/images/burger.png/" class="image burger"/></div>
+              <div class="column"><img src="https://mverissimo.github.io/tweenslideshow/dist/assets/images/burger.png/" alt="/" class="image burger"/></div>
             </div>
           </div>
           <div class="slider__item slide-astronaut">
@@ -380,7 +380,7 @@ function Store() {
                 <h1 class="title">lost</h1>
                 <h1 class="title">in space</h1>
               </div>
-              <div class="column"><img src="https://mverissimo.github.io/tweenslideshow/dist/assets/images/astronaut.png/" class="image astronaut"/></div>
+              <div class="column"><img src="https://mverissimo.github.io/tweenslideshow/dist/assets/images/astronaut.png/" alt="/" class="image astronaut"/></div>
             </div>
           </div>
           <div class="slider__item slide-coffee">
@@ -389,7 +389,7 @@ function Store() {
                 <h1 class="title">I Love</h1>
                 <h1 class="title">Coffee</h1>
               </div>
-              <div class="column"><img src="https://mverissimo.github.io/tweenslideshow/dist/assets/images/cup-2.png/" class="image cup"/></div>
+              <div class="column"><img src="https://mverissimo.github.io/tweenslideshow/dist/assets/images/cup-2.png/" alt="/" class="image cup"/></div>
             </div>
           </div>
         </div>

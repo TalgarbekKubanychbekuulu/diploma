@@ -14,7 +14,7 @@ import Auth from "./pages/Auth";
 import Products2 from "./pages/Products2";
 import React from "react";
 import SignOut from "./pages/SignOut";
-import Cart from "./pages/Cart";
+import Cart from "./pages/Cart1";
 
 function App() {
   return (

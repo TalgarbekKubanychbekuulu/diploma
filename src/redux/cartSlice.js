@@ -5,7 +5,7 @@ export const checkout = createAsyncThunk(
   "cart/checkout",
   async (order, thunkAPI) => {
     const response = await axios.post(
-      "https://diploma-d5005-default-rtdb.firebaseio.com/orders.json",
+      "https://crase-4f60f-default-rtdb.firebaseio.com/orders.json",
       order
     );
 

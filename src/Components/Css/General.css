@@ -7,7 +7,7 @@
   margin:0 auto;
   padding-bottom: 40px;
   max-width: 400px;
-  height: 500px;
+  height: 550px;
   border: 3px white solid;
   /* margin-left: 30%; */
   background-color: black;
@@ -56,7 +56,7 @@
 }
 .display-flex {
   display: flex;
-  gap: 1rem;
+  gap: 1.3rem;
 }
 .sign-image{
  
@@ -123,7 +123,7 @@ hr {
 .one-text1 {
   background-color: rgb(63, 62, 62);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 200%;
   padding-left: 77%;
 }
 .one-hr {
@@ -1270,3 +1270,70 @@ code {
   flex-direction: row;
   gap: 1.6em;
 } */
+.bd-placeholder-img {
+font-size: 1.125rem;
+text-anchor: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
+}
+
+@media (min-width: 768px) {
+.bd-placeholder-img-lg {
+  font-size: 3.5rem;
+}
+}
+
+.b-example-divider {
+height: 3rem;
+background-color: rgba(0, 0, 0, .1);
+border: solid rgba(0, 0, 0, .15);
+border-width: 1px 0;
+box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+flex-shrink: 0;
+width: 1.5rem;
+height: 100vh;
+}
+
+.bi {
+vertical-align: -.125em;
+fill: currentColor;
+}
+
+
+.store-text{
+  color: white;
+  box-shadow: 3px 3px 5px black;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(200, 133, 9);
+  border-radius: 0px;
+}
+.fw-normal{
+  border-bottom: red dashed 3px;
+  color: white;
+}
+.fw-text{
+  color: white;
+}
+.featurette-heading{
+  color: white;
+}
+.lead{
+  color:white;
+  font-weight: bold;
+}
+.old{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.logo-his{
+margin-right: 5px;
+margin-bottom: 5px;
+}

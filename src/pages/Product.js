@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import CartButton from "../Components/CartButton/CartButton";
-import { getProduct } from "../data/products";
+import { getProduct } from "../data/products1";
 import React from "react";
 
 function Product() {

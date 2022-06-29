@@ -1,7 +1,7 @@
 // import Headers from "../Components/Headers/Headers";
 // import headerImage from "../assets/lampo.jpg";
 import ProductList from "../Components/ProductList/ProductList";
-import { getProducts } from "../data/products";
+import { getProducts } from "../data/products1";
 import cars from "../assets/news.mp4";
 import React from "react";
 

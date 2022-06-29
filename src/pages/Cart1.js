@@ -3,7 +3,7 @@
 
 import "../Components/Css/General.css";
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts } from "../data/products";
+import { getProducts } from "../data/products1";
 import { Link } from "react-router-dom";
 import { decrement, increment, remove } from "../redux/cartSlice";
 import React from 'react'

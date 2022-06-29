@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import Headers from "../Components/Headers/Headers";
 import ProductList from "../Components/ProductList/ProductList";
 import { getCategory } from "../data/categories";
-import { getProducts } from "../data/products";
+import { getProducts } from "../data/products1";
 import React from "react";
 
 function Category() {

@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import About from "./pages/About";
-import Store from "./pages/Store";
+import Store from "./pages/Stories";
 import Checkout from "./pages/Checkout";
 import Auth from "./pages/Auth";
 import Products2 from "./pages/Products2";

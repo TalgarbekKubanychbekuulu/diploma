@@ -41,7 +41,7 @@ function Products() {
           expensive sports cars{" "}
         </p>
       </div>
-      <section className="my-5">
+      {/* <section className="my-5">
         <div className="container">
           <div className="row">
             <div className="col-md-8 mx-auto"></div>
@@ -163,7 +163,7 @@ function Products() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="boss-text1">Welcome to products</div>
       <div className="boss-text">Popular Products </div>
 

@@ -1,7 +1,7 @@
-import Headers from "../components/Headers/Headers";
+import Headers from "../Components/Headers/Headers";
 import headerImage from "../assets/car5.jpg";
 import { getCategories } from "../data/categories";
-import CategoryList from "../components/CategoryList/CategoryList";
+import CategoryList from "../Components/CategoryList/CategoryList";
 import React from "react";
 
 function Categories() {

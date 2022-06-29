@@ -1,4 +1,4 @@
-import Headers from "../components/Headers/Headers";
+import Headers from "../Components/Headers/Headers";
 import headerImage from "../assets/headers03.jpg";
 import React from "react";
 

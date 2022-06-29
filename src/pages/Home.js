@@ -1,4 +1,4 @@
-import "../components/Css/General.css";
+import "../Components/Css/General.css";
 
 import cars from "../assets/news.mp4";
 import React from "react";

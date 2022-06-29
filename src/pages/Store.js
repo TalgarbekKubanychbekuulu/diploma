@@ -357,7 +357,7 @@
 //     babel(babelConfig),
 //     write('build/')
 //   )
-import "../components/Css/General.css";
+import "../Components/Css/General.css";
 import { Link } from "react-router-dom";
 import React from "react";
 function Store() {

@@ -1,12 +1,12 @@
 // import Headers from "../Components/Headers/Headers";
 // import headerImage from "../assets/lampo.jpg";
-import ProductList from "../components/ProductList/ProductList";
+import ProductList from "../Components/ProductList/ProductList";
 import { getProducts } from "../data/products";
 import cars from "../assets/news.mp4";
 import React from "react";
 
 // import small from "../assets/new.jpg";
-import "../components/Css/General.css";
+import "../Components/Css/General.css";
 // import "./Products.scss"
 function Products() {
   return (

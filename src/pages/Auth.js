@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { start } from "../redux/authSlice";
 import React from "react";
-import "../components/Css/General.css";
+import "../Components/Css/General.css";
 import email1 from "../assets/email.png"
 import lock1 from "../assets/lock3.png"
 

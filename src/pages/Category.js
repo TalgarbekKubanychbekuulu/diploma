@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import Headers from "../components/Headers/Headers";
-import ProductList from "../components/ProductList/ProductList";
+import Headers from "../Components/Headers/Headers";
+import ProductList from "../Components/ProductList/ProductList";
 import { getCategory } from "../data/categories";
 import { getProducts } from "../data/products";
 import React from "react";

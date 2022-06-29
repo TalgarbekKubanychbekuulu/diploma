@@ -1,7 +1,7 @@
 import kor from "../assets/korzina.png";
 import logos from "../assets/logotip1.png";
 import React from "react";
-import "../components/Css/General.css";
+import "../Components/Css/General.css";
 
 function Products2() {
   return (

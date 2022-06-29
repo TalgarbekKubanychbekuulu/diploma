@@ -1,7 +1,7 @@
 // import Headers from "../Components/Headers/Headers";
 // import image from "../assets/car1.jpg";
 
-import "../components/Css/General.css";
+import "../Components/Css/General.css";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link } from "react-router-dom";

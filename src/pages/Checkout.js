@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProducts } from "../data/products";
 import { Link, useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
-import "../components/Css/General.css";
+import "../Components/Css/General.css";
 import React from "react";
 
 function Checkout() {

@@ -14,6 +14,7 @@ import Products2 from "./pages/Products2";
 import React from "react";
 import SignOut from "./pages/SignOut";
 import Cart1 from "./pages/Cart1";
+import History from "./pages/History";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/signout" element={<SignOut />} />
+          <Route path="/history" element={<History />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

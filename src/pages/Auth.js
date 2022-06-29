@@ -41,8 +41,8 @@ export default function Auth() {
       {errorOutput}
       <img
         src="https://i.pinimg.com/originals/3d/1a/b6/3d1ab66b5748b5c9a387db81eb939d94.jpg"
-        height="200"
-        width="350"
+
+        className="sign-image"
         alt=""
       />
       <label>

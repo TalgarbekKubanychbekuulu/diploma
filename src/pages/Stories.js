@@ -367,6 +367,7 @@ import tractor2 from "../assets/tractor2.jpg";
 import tractor3 from "../assets/tractor3.jpg";
 import logo2 from "../assets/logotip1.png";
 import oldlogo2 from "../assets/oldlogo2.jpg"
+import { Link } from "react-router-dom";
 
 import React from "react";
 function Store() {

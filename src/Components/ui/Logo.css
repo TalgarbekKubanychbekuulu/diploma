@@ -147,3 +147,13 @@ form {
   font-size: 1.2rem;
 }
 
+.navbar {
+  background-color: #343a40;
+  height: 70px;  
+}
+.navbar a {
+  color: white
+}
+.navbar-brand{
+  font-size: 1.3rem;
+}

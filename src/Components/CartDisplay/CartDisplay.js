@@ -1,9 +1,8 @@
 import { useSelector } from "react-redux";
-import { getProducts } from "../../data/products";
+import { getProducts } from "../../data/products1";
 import classes from "./CartDisplay.module.css";
 import CartItem from "../CartItem/CartItem";
 import React from "react";
-
 function CartDisplay({ actions }) {
   const items = useSelector(store => store.cart.items);
   const products = getProducts();

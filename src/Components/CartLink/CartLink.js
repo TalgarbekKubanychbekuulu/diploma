@@ -11,6 +11,7 @@ export default function CartLink() {
       0
     );
   });
+  console.log(number)
 
   return (
     <NavLink to="/cart1">

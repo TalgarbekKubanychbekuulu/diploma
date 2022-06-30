@@ -22,8 +22,8 @@ import new3 from "../assets/new3.webp";
 const products = [
   {
     image: new1,
-    productId: "Aventado3",
-    categoryId: "Aventador4",
+    productId: "Aventado",
+    categoryId: "Aventador",
     title: "Aventador",
     price: 45000,
     description: `DESIGNED TO PUSH BEYOND PERFORMANCE
@@ -32,8 +32,8 @@ const products = [
 
   {
     image: new2,
-    productId: "Lamborghini E-class3",
-    categoryId: "Lamborghini E-classs4",
+    productId: "Lamborghini E-class",
+    categoryId: "Lamborghini E-classs",
     title: "Lamborghini E-class",
     price: 50000,
     description: `Lamborghini Urus is the world's first sports crossover with a supercar soul and the functionality of an SUV. A four -liter V8 engine with a dual turbocharged capacity of 650 liters. With. And 850 Nm of torque provides acceleration from 0 to 100 km/h in just `,
@@ -52,8 +52,8 @@ const products = [
   
   {
     image: productImage2,
-    productId: "Aventador1",
-    categoryId: "Aventador2",
+    productId: "Aventadors",
+    categoryId: "Aventadors",
     title: "Aventador",
     price: 45000,
     description: `DESIGNED TO PUSH BEYOND PERFORMANCE
@@ -62,8 +62,8 @@ const products = [
 
   {
     image: productImage,
-    productId: "Lamborghini Urus",
-    categoryId: "Lamborghini Urus",
+    productId: "LamborghiniUrus",
+    categoryId: "LamborghiniUrus",
     title: "Lamborghini Urus",
     price: 50000,
     description: `Lamborghini Urus is the world's first sports crossover with a supercar soul and the functionality of an SUV. A four -liter V8 engine with a dual turbocharged capacity of 650 liters. With. And 850 Nm of torque provides acceleration from 0 to 100 km/h in just `,
@@ -72,8 +72,8 @@ const products = [
 
   {
     image: model,
-    productId: "Sián FKP 37",
-    categoryId: "Sián FKP 37",
+    productId: "SianFKP37",
+    categoryId: "SianFKP37",
     title: "Sián FKP 37",
     description:
       "Sián FKP 37 is the first super sporter equipped with a V12 engine with a hybrid technology based on supercondacitors. The combination of power, beauty and the cult engine of the V12 in combination with an electric booster contains this unrivaled miracle of",
@@ -81,8 +81,8 @@ const products = [
   },
   {
     image: old1,
-    productId: "Old Lamborghin",
-    categoryId: "Old Lamborghin",
+    productId: "OldLamborghinis",
+    categoryId: "OldLamborghinis",
     title: "Old Lamborghini",
     price: 45000,
     description: `DESIGNED TO PUSH BEYOND PERFORMANCE
@@ -91,8 +91,8 @@ const products = [
 
   {
     image: old2,
-    productId: "Old Lamborghini.",
-    categoryId: "Old Lamborghini.",
+    productId: "OldLamborghinor",
+    categoryId: "OldLamborghinor",
     title: "Old Lamborghini ",
     price: 50000,
     description: `Lamborghini Urus is the world's first sports crossover with a supercar soul and the functionality of an SUV. A four -liter V8 engine with a dual turbocharged capacity of 650 liters. With. And 850 Nm of torque provides acceleration from 0 to 100 km/h in just `,
@@ -101,8 +101,8 @@ const products = [
 
   {
     image: old3,
-    productId: "Old Lamborghini",
-    categoryId: "Old Lamborghini",
+    productId: "OldLamborghines",
+    categoryId: "OldLamborghines",
     title: "Old Lamborghini",
     description:
       "Sián FKP 37 is the first super sporter equipped with a V12 engine with a hybrid technology based on supercondacitors. The combination of power, beauty and the cult engine of the V12 in combination with an electric booster contains this unrivaled miracle of",
@@ -110,8 +110,8 @@ const products = [
   },
   {
     image: old4,
-    productId: "Old Lamborghin-",
-    categoryId: "Old Lamborghin-",
+    productId: "OldLamborghinrer",
+    categoryId: "OldLamborghinrer",
     title: "Old Lamborghini",
     price: 45000,
     description: `DESIGNED TO PUSH BEYOND PERFORMANCE
@@ -120,8 +120,8 @@ const products = [
 
   {
     image: old5,
-    productId: "Old Lamborghin6",
-    categoryId: "Old Lamborghin9",
+    productId: "OldLamborghinter",
+    categoryId: "OldLamborghinter",
     title: "Old Lamborghini ",
     price: 50000,
     description: `Lamborghini Urus is the world's first sports crossover with a supercar soul and the functionality of an SUV. A four -liter V8 engine with a dual turbocharged capacity of 650 liters. With. And 850 Nm of torque provides acceleration from 0 to 100 km/h in just `,
@@ -130,8 +130,8 @@ const products = [
 
   {
     image: old3,
-    productId: "Old Lamborghin7",
-    categoryId: "Old Lamborghin8",
+    productId: "OldLamborghint",
+    categoryId: "OldLamborghint",
     title: "Old Lamborghini",
     description:
       "Sián FKP 37 is the first super sporter equipped with a V12 engine with a hybrid technology based on supercondacitors. The combination of power, beauty and the cult engine of the V12 in combination with an electric booster contains this unrivaled miracle of",
@@ -139,8 +139,8 @@ const products = [
   },
   {
     image: jacket,
-    productId: "Black Jacket25",
-    categoryId: "Black Jacket26",
+    productId: "BlackJackets",
+    categoryId: "BlackJackets",
     title: "Black Jacket",
     price: 45000,
     description: `DESIGNED TO PUSH BEYOND PERFORMANCE
@@ -159,8 +159,8 @@ const products = [
 
   {
     image: futbolka,
-    productId: "T-shirt",
-    categoryId: "T-shirt2",
+    productId: "Tshirt",
+    categoryId: "Tshirt2",
     title: "T-shirt",
     price: 50000,
     description: `Lamborghini Urus is the world's first sports crossover with a supercar soul and the functionality of an SUV. A four -liter V8 engine with a dual turbocharged capacity of 650 liters. With. And 850 Nm of torque provides acceleration from 0 to 100 km/h in just `,
@@ -169,8 +169,8 @@ const products = [
 
   {
     image: futbolka2,
-    productId: "White Hoody",
-    categoryId: "White Hoody",
+    productId: "WhiteHoody",
+    categoryId: "WhiteHoody",
     title: "White Hoody",
     description:
       "Sián FKP 37 is the first super sporter equipped with a V12 engine with a hybrid technology based on supercondacitors. The combination of power, beauty and the cult engine of the V12 in combination with an electric booster contains this unrivaled miracle of",
@@ -188,8 +188,8 @@ const products = [
 
   {
     image: wallet,
-    productId: "Leather Wallet",
-    categoryId: "Leather Wallet2",
+    productId: "LeatherWallet",
+    categoryId: "LeatherWallet2",
     title: "Leather Wallet",
     price: 50000,
     description: `Lamborghini Urus is the world's first sports crossover with a supercar soul and the functionality of an SUV. A four -liter V8 engine with a dual turbocharged capacity of 650 liters. With. And 850 Nm of torque provides acceleration from 0 to 100 km/h in just `,
@@ -215,8 +215,8 @@ const products = [
   },
   {
     image: racing,
-    productId: "Racing Hoodyr",
-    categoryId: "Racing Hoody2",
+    productId: "RacingHoody",
+    categoryId: "RacingHoody2",
     title: "Racing Hoody",
     price: 50000,
     description: `Lamborghini Urus is the world's first sports crossover with a supercar soul and the functionality of an SUV. A four -liter V8 engine with a dual turbocharged capacity of 650 liters. With. And 850 Nm of torque provides acceleration from 0 to 100 km/h in just `,

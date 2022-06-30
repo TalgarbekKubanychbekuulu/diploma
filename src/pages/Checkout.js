@@ -1,7 +1,6 @@
 // import Headers from "../Components/Headers/Headers";
 // import image from "../assets/car1.jpg";
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts } from "../data/products1";
 import { Link, useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
 import "../Components/Css/General.css";

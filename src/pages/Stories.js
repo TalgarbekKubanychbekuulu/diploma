@@ -394,9 +394,9 @@ function Store() {
               Lamborghini and a number of companies.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#">
+              <Link class="btn btn-secondary" to="/">
                 View details &raquo;
-              </a>
+              </Link>
             </p>
           </div>
           <div class="col-lg-4">
@@ -417,9 +417,9 @@ function Store() {
               Lamborghini and a number of companies.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#">
+              <Link class="btn btn-secondary" to="/">
                 View details &raquo;
-              </a>
+              </Link>
             </p>
           </div>
           <div class="col-lg-4">
@@ -440,9 +440,9 @@ function Store() {
               Lamborghini and a number of companies.
             </p>
             <p>
-              <a class="btn btn-secondary" href="#">
+              <Link class="btn btn-secondary" to="/">
                 View details &raquo;
-              </a>
+              </Link>
             </p>
           </div>
         </div>

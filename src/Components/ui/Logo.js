@@ -1,8 +1,5 @@
 import "./Logo.css";
 import logo from "../../assets/logotip1.png";
-import search1 from "../../assets/search.png";
-import { Link } from "react-router-dom";
-import CartLink from "../CartLink/CartLink";
 import React from "react";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";

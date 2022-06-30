@@ -1315,8 +1315,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   border-radius: 0px;
 }
 .fw-normal{
-  border-bottom: red dashed 3px;
+  border-bottom: red dashed 4px;
   color: white;
+  font-weight: bold;
 }
 .fw-text{
   color: white;

@@ -1,11 +1,10 @@
 // import Headers from "../Components/Headers/Headers";
 // import image from "../assets/car1.jpg";
 import { useDispatch, useSelector } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
 import "../Components/Css/General.css";
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 function Checkout() {
   const dispatch = useDispatch();
  const navigate = useNavigate();

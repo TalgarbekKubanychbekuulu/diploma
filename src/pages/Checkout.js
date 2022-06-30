@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
 import "../Components/Css/General.css";
 import React, { useEffect } from "react";
-
+import { Link } from "react-router-dom";
 function Checkout() {
   const dispatch = useDispatch();
  const navigate = useNavigate();

@@ -136,7 +136,7 @@ function Footer() {
                       <Link to="/">About us</Link>
                     </li>
                     <li>
-                      <Link to="/">Services</Link>
+                      <Link to="/">Stories</Link>
                     </li>
                     <li>
                       <Link to="/">Projects</Link>

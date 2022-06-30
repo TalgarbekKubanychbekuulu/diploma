@@ -57,7 +57,8 @@ function Product() {
               maxWidth: "600px",
               fontFamily: "Montserrat, sans-serif",
               color: "white",
-              width:"300px"
+              width:"300px",
+              fontWeight:"bold",
 
 
             }}

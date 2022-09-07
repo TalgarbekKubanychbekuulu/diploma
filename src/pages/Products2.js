@@ -80,7 +80,7 @@ function Products2() {
         <div class="wrapper">
           <div class="desc">
             <h1 className="text_description23">
-              <img src={logos} alt="" className="logotip2" />
+              <img src={logos} alt="" className="logotip2"/>
               Lamborghini clothing products for you
             </h1>
             <p className="right-text22">

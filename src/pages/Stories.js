@@ -357,180 +357,77 @@
 //     babel(babelConfig),
 //     write('build/')
 //   )
-import "../Components/Css/General.css";
-import "../Components/Css/General.css";
-import avtor1 from "../assets/avtor1.jpg";
-import avtor2 from "../assets/avtor2.jpg";
-import avtor3 from "../assets/avtor3.jpg";
-import tractor from "../assets/tractor.jpg";
-import tractor2 from "../assets/tractor2.jpg";
-import tractor3 from "../assets/tractor3.jpg";
-import logo2 from "../assets/logotip1.png";
-import oldlogo2 from "../assets/oldlogo2.jpg"
-import { Link } from "react-router-dom";
-
+import "../pages/Stories.css";
 import React from "react";
+import { Link } from "react-router-dom";
 function Store() {
   return (
     <div>
-      <h2 className="store-text">History for Lamborghini</h2>
-
-      <div class="container marketing">
-        <div class="row">
-          <div class="col-lg-4">
-            <img
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              src={avtor1}
-              alt="img"
-            />
-
-            <h2 class="fw-normal">Ferruccio Lamborghini.</h2>
-            <p className="fw-text">
-              <img className="logo-his" src={logo2} alt="" width="40" height="40" />
-              (Italian. Ferruccio Lamborghini; April 28, 1916, Chento, Ferrara,
-              Italy - February 20, 1993, Peruja, Italy) - Italian industrialist
-              and businessman, founder of Lamborghini Trattori, Automobili
-              Lamborghini and a number of companies.
+      <section class="section-a">
+        <div class="container">
+          <div>
+            <h1 className="krut">Ferruccio Lamborghini</h1>
+            <p className="krut">
+              Ferruccio Lamborghini (Italian pronunciation: [ferˈruttʃo
+              lamborˈɡiːni]; 28 April 1916 – 20 February 1993) was an Italian
+              automobile designer, inventor, mechanic, engineer, winemaker,
+              industrialist and businessman who created Automobili Lamborghini
+              in 1963, a maker of high-end sports cars in Sant'Agata Bolognese.
+              Born to grape farmers in Renazzo, from the comune of Cento in the
+              Emilia-Romagna region, his mechanical know-how led him to enter
+              the business of tractor manufacturing in 1948, when he founded
+              Lamborghini Trattori, which quickly became an important
+              manufacturer of agricultural equipment in the midst of Italy's
+              post-WWII economic boom.
             </p>
-            <p>
-              <Link class="btn btn-secondary" to="/">
-                View details &raquo;
-              </Link>
-            </p>
+            <a href="https://en.wikipedia.org/wiki/Ferruccio_Lamborghini" class="btn">
+              Read More
+            </a>
           </div>
-          <div class="col-lg-4">
-            <img
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              src={avtor3}
-              alt="img"
-            />
+          <img
+            className="per"
+            src="https://lamboelite.ru/sites/default/files/pictures/gallery/681/681_35.jpg"
+            alt=""
+          />
+        </div>
+      </section>
 
-            <h2 class="fw-normal">Ferruccio Lamborghini.</h2>
-            <p className="fw-text">
-              <img className="logo-his" src={logo2} alt="" width="40" height="40" />
-              (Italian. Ferruccio Lamborghini; April 28, 1916, Chento, Ferrara,
-              Italy - February 20, 1993, Peruja, Italy) - Italian industrialist
-              and businessman, founder of Lamborghini Trattori, Automobili
-              Lamborghini and a number of companies.
-            </p>
-            <p>
-              <Link class="btn btn-secondary" to="/">
-                View details &raquo;
-              </Link>
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <img
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              src={avtor2}
-              alt="img"
-            />
-
-            <h2 class="fw-normal">Ferruccio Lamborghini.</h2>
-            <p className="fw-text">
-              <img className="logo-his" src={logo2} alt="" width="40" height="40" />
-              (Italian. Ferruccio Lamborghini; April 28, 1916, Chento, Ferrara,
-              Italy - February 20, 1993, Peruja, Italy) - Italian industrialist
-              and businessman, founder of Lamborghini Trattori, Automobili
-              Lamborghini and a number of companies.
-            </p>
-            <p>
-              <Link class="btn btn-secondary" to="/">
-                View details &raquo;
-              </Link>
+      <section id="about" class="section-b">
+        <div class="overlay">
+          <div class="section-b-inner py-5">
+            <h3 class="text-2">Loud & Clear</h3>
+            <h2 class="text-5 mt-1">People Aren't Hearing All the Music</h2>
+            <p class="mt-1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+              repudiandae laboriosam quia, error tempore porro ducimus voluptate
+              laborum nostrum iure.
             </p>
           </div>
         </div>
+      </section>
 
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <p class="lead">
-              <img src={oldlogo2} className="old" alt="" width="250" height="90" />
-              Ferruchcio Lamborgini was born on April 28, 1916 in a small
-              village of Renazzo, not far from Cheno (Ferrara Province). His
-              parents Antonio and Evelina Lamborgini were engaged in
-              agriculture. From childhood, Ferruccio was interested in
-              technology, and his parents, seeing the hobbies of his son, in one
-              of the sheds of the farm created a small workshop in which
-              Ferruchcio cast parts necessary for the equipment on the farm, as
-              well as to design various own mechanisms. Once, when one of the
-              details casting, a small explosion occurred in the workshop, which
-              almost led to a fire on the entire farm.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <img
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              src={tractor2}
-              alt="img"
-            />
-          </div>
+      <section class="section-c">
+        <div class="gallery">
+          <Link to="https://i.ibb.co/CHLBZnp/gal2323.jpg" class="big">
+            <img src="https://cutewallpaper.org/21/lamborghini-wallpaper-logo/Lamborghini-Logo-Wallpaper-Star-ULTRA-HD-Textures.jpg" alt="" />
+          </Link>
+          <Link to="https://i.ibb.co/4pBbhfY/gal39834.jpg" class="big">
+            <img src="https://i.pinimg.com/originals/3c/0d/c4/3c0dc492f2bb9e09de5cf2f80bca66cd.jpg" alt="" />
+          </Link>
+          <Link to="https://i.ibb.co/xSnHP7g/gal43884.jpg" class="big">
+            <img src="https://trendymen.ru/images/article1/119160/attachments/home_a.jpg" alt="" />
+          </Link>
+          <Link to="https://i.ibb.co/QN6Bnrb/gal4958.jpg" class="big">
+            <img src="https://pubimg.4mycar.ru/images/full/08e05fbec81d37ed9db957b2937546609eab0f0002.jpeg" alt="" />
+          </Link>
+          <Link to="https://i.ibb.co/dGZvj75/gal4545.jpg" class="big">
+            <img src="https://media.torque.com.sg/public/2017/04/lamborghini-omp-collezione-automobili-lamborghini-centro-stile-lamborghini-centro-stile-squadra-corse-lamborghini-squadra-corse-one-art-attire-fashion-clothes-pic3.jpg" alt="" />
+          </Link>
+          <Link to="https://i.ibb.co/S6FVFNt/gal74744.jpg" class="big">
+            <img src="https://gw.alicdn.com/bao/uploaded/i3/T1NY2RFCtXXXXXXXXX_!!0-item_pic.jpg" alt="" />
+          </Link>
         </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <p class="lead">
-
-              At the end of the war, Ferrucio returned to his native village,
-              where he took up the alteration of military equipment for
-              agricultural needs. Having succeeded in this matter, he founded
-              Lamborghini Trattori S.P.A. And already in 1949 he released a
-              tractor of his own design. In 1960, Lamborgini founded his second
-              Lamborghini Bruciatori company for industrial cooling equipment.
-            </p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              src={tractor3}
-              alt="img"
-            />
-          </div>
-        </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <p class="lead">
-              The rich owner of Lamborghini Trattori S.P.A. In the production of
-              tractors, Ferruuccio Lamborgini was a lover of sports cars, in
-              particular, Ferrari. He drew attention to the fact that the clutch
-              of Ferrari cars was similar to what Ferruuccio used in his
-              tractors, but differed in low reliability. That is why he
-              criticized Enzo Ferrari. Ferruccio was shocked by Enzo that the
-              producer of tractors has no right to criticize Ferrari cars.
-              Offended, he caught fire to “create the best ferrari than
-              Ferrari”.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <img
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              src={tractor}
-              alt="img"
-            />
-          </div>
-        </div>
-
-        <hr class="featurette-divider" />
-      </div>
+      </section>
     </div>
   );
 }

@@ -127,18 +127,7 @@ form {
   color: white;
   font-size: 14px;
 }
-.dk-footer-form button[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 12px 24px 12px 17px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-  border: 1px solid #007bff;
-  background: #007bff;
-  color: #fff;
-  padding-bottom: 10%;
-}
+
 .dk-footer-form button:hover {
   cursor: pointer;
 }
